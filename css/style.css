@@ -166,7 +166,7 @@ background-color:rgb(79,199,254);
 
 }
 /*___________________BUTTONS MENU_____________________*/
-div.all-small-boxes {
+.all-small-boxes {
   /*border: 3px red solid;*/
   justify-content: center;
   padding-top: 1rem;
@@ -191,8 +191,7 @@ div.all-small-boxes {
 }
 
   .colored-box{
-
-  -webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 18px;
   font-family: "Amatic SC";
@@ -375,7 +374,6 @@ display:none;
 margin-top: .3rem;
 font-size: 1.2rem;
 letter-spacing: .03rem;
-
 }
 
 .skills-list li {
@@ -419,7 +417,7 @@ margin-bottom: .2rem;
 /*  border:1px red solid;*/
 }
 .computer-image-container{
-  width:100;
+  width:100%;
   justify-content:center;
   margin-top:5rem;
 }
@@ -435,9 +433,9 @@ margin-bottom: .2rem;
 
 
 /*_______________________ABOUT______________________ _____*/
-div.about{
+/*.about{
 	width:100%;
-}
+}*/
 
 .about-photo-text{
   flex-direction:row;
