@@ -392,6 +392,7 @@ margin-bottom: .2rem;
 
 
 /*_________ABOUT _____*/
+
 .about-photo-text{
   flex-direction:row;
   width:49rem;
@@ -442,7 +443,7 @@ margin-bottom: .2rem;
 }
 
 
-.about {
+div.about {
 height:40rem;
 flex-direction:column;
 background-image: url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
@@ -907,7 +908,7 @@ footer {
 @media only screen and (max-width: 768px){
   footer{
 		flex-direction:column;
-    height:8rem;
+    height:10rem;
 		align-items:center;
 		padding-bottom:1rem;
   }
@@ -946,6 +947,7 @@ footer {
   margin-right:1rem;
   margin-top:1.5rem;
   width:10rem;
+	line-height:.8rem;
  }
 
 .vector-credits{
@@ -961,7 +963,7 @@ margin-left:1rem;
 
  .vector-credits{
 align-items:center;
-padding-top:1rem;
+margin-top:1rem;
 flex-direction:column;
 width:80%;
   }
