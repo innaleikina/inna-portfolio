@@ -463,7 +463,7 @@ width:100%;
   padding:2rem;
 /*border:1px red solid;*/
   width:38%;
-  height:100%;
+
   line-height:1.4rem;
   color:rgb(57,57,57);
  /* margin-top:1.3rem;*/
@@ -496,11 +496,6 @@ div.skills{
  /* align-content:center;*/
 }
 
-@media only screen and (max-width:768px){
-  div.skills{
-
-  }
-}
 
 
 .skills-header{
