@@ -679,7 +679,7 @@ div.work-all{
   flex-direction:row;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 980px){
   div.work-all{
     flex-direction:column;
    /* border:1px red solid;*/
