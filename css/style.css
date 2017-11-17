@@ -675,7 +675,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 
 /*______________________WORK______________*/
 
-.work-all{
+div.work-all{
  justify-content:center;
  background-image:url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
   background-position:left;
