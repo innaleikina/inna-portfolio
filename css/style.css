@@ -28,7 +28,7 @@ div.home{
   flex-direction:column;
   height:45rem;
   /*border:1px green solid;*/
-  background-image:url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
+  background-image:url("../images/watercolor_small.jpg");
   background-position: top;
   justify-content:center;
  /* padding-bottom:3rem;*/
@@ -382,7 +382,7 @@ margin-bottom: .2rem;
 }
 
 .image-computer{
-  background-image:url("http://res.cloudinary.com/innaleikina/image/upload/v1510329382/workspace_1_d6u1lg.png");
+  background-image:url("../images/workspace.svg");
   height:20rem;
   width:20rem;
  background-size:cover;
@@ -426,7 +426,7 @@ margin-bottom: .2rem;
 }
 
 .inna-photo{
-     background-image: url("https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/13173763_10154267338127203_7738135201483270409_n.jpg?oh=a05ee7e3c885dad67158606fdcf9eae2&oe=5AA200B4");
+  background-image: url("https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/13173763_10154267338127203_7738135201483270409_n.jpg?oh=a05ee7e3c885dad67158606fdcf9eae2&oe=5AA200B4");
   background-size:cover;
   width:12rem;
   height:12rem;
@@ -446,7 +446,7 @@ margin-bottom: .2rem;
 div.about {
 height:40rem;
 flex-direction:column;
-background-image: url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
+background-image: url("../images/watercolor_small.jpg");
 background-position: bottom;
 align-content:center;
 align-items:center;
@@ -477,7 +477,7 @@ width:100%;
 }
 
 .image-about{
-   background-image:url("http://res.cloudinary.com/innaleikina/image/upload/v1510332408/laptop_dlyc91.png");
+   background-image:url("../images/laptop.png");
   height:7rem;
   width:7rem;
  background-size:cover;
@@ -643,7 +643,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 }
 
 .skills-image-pencils{
-  background-image:url(http://res.cloudinary.com/innaleikina/image/upload/v1510375096/pencil-case_gtjz8v.png);
+  background-image:url("../images/pencil-case.png");
   width:14rem;
   height:14rem;
   background-size:cover;
@@ -672,7 +672,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 
 div.work-all{
  justify-content:center;
- background-image:url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
+ background-image:url("../images/watercolor_small.jpg");
   background-position:left;
   /*height:100%;*/
   width:100%;
@@ -789,31 +789,29 @@ border:2px rgb(254,87,79) dashed;
 }
 
 #weather{
- background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510427607/Screen_Shot_2017-11-11_at_12.10.08_PM_zqgn4u.png");
+ background-image:url("../images/weather.png");
 }
 
 #wikipedia{
-  background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510429078/Screen_Shot_2017-11-11_at_12.09.56_PM_g5u5rt.png");
+  background-image:url("../images/wikipedia.png");
 }
 
 #quote{
-   background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510429256/Screen_Shot_2017-11-11_at_12.09.25_PM_k5cmf3.png");
+   background-image:url(" ../images/quote.png");
 }
 
-#optics{
-  background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432606/Screen_Shot_2017-11-11_at_12.10.37_PM_n5ienv.png");
-}
+
 
 #academy{
-    background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432674/Screen_Shot_2017-11-11_at_12.10.27_PM_ravvs8.png");
+    background-image:url("../images/colmar.png");
 }
 
 #agent{
-      background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432790/Screen_Shot_2017-11-11_at_12.10.49_PM_uriqfl.png");
+      background-image:url("../images/secret_agent.png");
 }
 
 #brotherhood{
- background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432960/Screen_Shot_2017-11-11_at_1.41.35_PM_jui9b0.png");
+ background-image:url("../images/sleeping_brotherhood.png");
 }
 
 .work-text{
