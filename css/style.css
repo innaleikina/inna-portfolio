@@ -52,7 +52,7 @@ html{
 }
 
 
-.container {
+div.container {
   display: flex;
 }
 
@@ -86,7 +86,7 @@ div.home{
 
 
 /*_______________SCROLL MENU _______*/
-.scrolled-menu{
+div.scrolled-menu{
  width:100%;
 justify-content:flex-end;
 background-color:rgb(79,199,254);
@@ -104,7 +104,7 @@ background-color:rgb(79,199,254);
 .fa-bars{
   color:white;
  opacity:1;
- cursor:pointer; 
+ cursor:pointer;
   z-index:1;
   margin-right:2rem;
  }
@@ -125,11 +125,11 @@ background-color:rgb(79,199,254);
     padding-top:.2rem;
     font-size:1.7rem;
   }
-  
+
   .sandwich-icon{
     padding-bottom:.4rem;          padding-top:.4rem;
   }
-  
+
 }
 
 .drop-down-menu{
@@ -166,7 +166,7 @@ background-color:rgb(79,199,254);
 
 }
 /*___________________BUTTONS MENU_____________________*/
-.all-small-boxes {
+div.all-small-boxes {
   /*border: 3px red solid;*/
   justify-content: center;
   padding-top: 1rem;
@@ -434,7 +434,11 @@ margin-bottom: .2rem;
 }
 
 
-/*_________ABOUT _____*/
+/*_______________________ABOUT______________________ _____*/
+div.about{
+	width:100%;
+}
+
 .about-photo-text{
   flex-direction:row;
   width:49rem;
@@ -450,7 +454,7 @@ margin-bottom: .2rem;
   .about-photo-text{
     width:90%;
     padding:1rem;
-    
+
   /*  justify-content:center;*/
     align-items:center;
     align-content:center;
@@ -485,15 +489,15 @@ margin-bottom: .2rem;
 }
 
 
-.about {  
-height:40rem;  
+.about {
+height:40rem;
 flex-direction:column;
 background-image: url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
 background-position: bottom;
 align-content:center;
 align-items:center;
 justify-content:center;
-width:100%;   
+width:100%;
 
 /*border:1px red solid;*/
 }
@@ -503,7 +507,7 @@ width:100%;
 .about-text{
   letter-spacing:0.015rem;
   font-family:"Baskerville";
-  padding:2rem;   
+  padding:2rem;
 /*border:1px red solid;*/
   width:38%;
   height:100%;
@@ -589,7 +593,7 @@ width:100%;
 @media only screen and (max-width:768px){
   .all-skills{
      width:100%;
-    padding-bottom:2rem;   
+    padding-bottom:2rem;
   }
 }
 
@@ -605,7 +609,7 @@ width:100%;
     margin-top:1rem;
     width:100%;
    }
-  
+
   .all-skills{
  /*border:1px red solid;*/
  margin:0;
@@ -634,7 +638,7 @@ width:100%;
 }
 
 
-#html{ 
+#html{
 background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 
 }
@@ -649,7 +653,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 }
 
 #adobe{
-  background-image:url("http://pi.om/wp-content/uploads/2016/10/Adobe-logo.png"); 
+  background-image:url("http://pi.om/wp-content/uploads/2016/10/Adobe-logo.png");
 
 }
 
@@ -721,7 +725,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 .work-all{
  justify-content:center;
  background-image:url("http://res.cloudinary.com/innaleikina/image/upload/v1510251904/watercolor_small_ajefoq.jpg");
-  background-position:left; 
+  background-position:left;
   height:100%;
   width:100%;
   flex-direction:row;
@@ -761,7 +765,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 .apps-portfolio{
  padding-left:2rem;
   padding-right:2rem;
- width:27rem;  
+ width:27rem;
  /*height:200vh;*/
   height:100%;
  flex-direction:column;
@@ -779,21 +783,21 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
     padding-top:1rem;
     width:80%;
   }
-  
+
   #landing-pages{
     margin-top:0;
   }
-  
+
     #websites{
       margin-top:5rem;
     }
-  
+
 }
 
 .portfolio-image{
  width:8rem;
  height:8rem;
- background-size:cover; 
+ background-size:cover;
   opacity:.8;
  /* border:1.7px rgb(254,87,79) dashed;*/
 }
@@ -823,7 +827,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 @media only screen and (max-width: 480px){
   .work-link-description{
     flex-direction:column;
-  } 
+  }
 }
 
 .work-link-description:hover{
@@ -832,7 +836,7 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 }
 
 .work-link-description:active{
-border:2px rgb(254,87,79) dashed; 
+border:2px rgb(254,87,79) dashed;
   background-color:transparent;
   transition:none;
 }
@@ -846,11 +850,11 @@ border:2px rgb(254,87,79) dashed;
 }
 
 #quote{
-   background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510429256/Screen_Shot_2017-11-11_at_12.09.25_PM_k5cmf3.png"); 
+   background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510429256/Screen_Shot_2017-11-11_at_12.09.25_PM_k5cmf3.png");
 }
 
 #optics{
-  background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432606/Screen_Shot_2017-11-11_at_12.10.37_PM_n5ienv.png"); 
+  background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432606/Screen_Shot_2017-11-11_at_12.10.37_PM_n5ienv.png");
 }
 
 #academy{
@@ -861,7 +865,7 @@ border:2px rgb(254,87,79) dashed;
       background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432790/Screen_Shot_2017-11-11_at_12.10.49_PM_uriqfl.png");
 }
 
-#brotherhood{ 
+#brotherhood{
  background-image:url(" http://res.cloudinary.com/innaleikina/image/upload/v1510432960/Screen_Shot_2017-11-11_at_1.41.35_PM_jui9b0.png");
 }
 
