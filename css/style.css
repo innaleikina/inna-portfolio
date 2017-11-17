@@ -487,7 +487,7 @@ width:100%;
 }
 /*_________SKILLS ______*/
 
-.skills{
+div.skills{
   background-color: rgb(79,199,254);
   flex-direction:column;
   height:40rem;
@@ -497,7 +497,7 @@ width:100%;
 }
 
 @media only screen and (max-width:768px){
-  .skills{
+  div.skills{
     height:100%;
   }
 }
@@ -685,7 +685,7 @@ div.work-all{
 }
 
 @media only screen and (max-width: 768px){
-  .work-all{
+  div.work-all{
     flex-direction:column;
    /* border:1px red solid;*/
     align-items:center;
