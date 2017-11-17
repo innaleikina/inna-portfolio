@@ -913,6 +913,7 @@ footer {
     flex-direction:column;
     height:8rem;
 		align-items:center;
+		padding-bottom:1rem;
   }
 }
 
@@ -955,11 +956,16 @@ margin-left:1rem;
 @media only screen and (max-width: 480px){
 .vector-credit{
  margin-top:.5rem;
+ width:80%;
  }
 
  .vector-credits{
+	 padding-top:1rem;
 flex-direction:column;
+width:80%;
   }
+
+
 }
 
 /**{background: #000 !important;
