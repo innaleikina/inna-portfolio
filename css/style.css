@@ -116,7 +116,7 @@ background-color:rgb(79,199,254);
 }
 
 .drop-down-item:active{
- border:1px rgb(254,153,79) solid;
+ /*border:1px rgb(254,153,79) solid;*/
 }
 
 .drop-down-background{
