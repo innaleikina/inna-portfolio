@@ -908,7 +908,7 @@ footer {
 @media only screen and (max-width: 768px){
   footer{
 		flex-direction:column;
-    height:10rem;
+    height:9rem;
 		align-items:center;
 		padding-bottom:1rem;
   }
@@ -929,7 +929,7 @@ footer {
 .social{
   margin-left:.5rem;
   margin-right:.5rem;
-  margin-top:1rem;
+  margin-top:.5rem;
 }
 
 .social-icons{
@@ -957,9 +957,17 @@ margin-left:1rem;
 @media only screen and (max-width: 768px){
 .vector-credit{
  margin-top:.5rem;
- width:45%;
+ width:100%;
+text-align:center;
+ /*border:1px red solid;*/
+}
 
- }
+.social-icons{
+  margin-right:0;
+	/*border:1px red solid;*/
+	width:100%;
+	justify-content:center;
+}
 
  .vector-credits{
 align-items:center;
