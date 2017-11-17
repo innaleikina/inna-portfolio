@@ -45,6 +45,13 @@ background-color:rgb(79,199,254);
  z-index:1;
 }
 
+@media only screen and (max-width:768px){
+	.scrolled-menu{
+		width:100%;
+	}
+}
+
+
 .sandwich-icon{
   width:100%;
   justify-content:space-between;
@@ -71,14 +78,14 @@ background-color:rgb(79,199,254);
 
 
 @media only screen and (max-width:768px){
-
   .name-menu{
     padding-top:.2rem;
     font-size:1.7rem;
   }
 
   .sandwich-icon{
-    padding-bottom:.4rem;          padding-top:.4rem;
+    padding-bottom:.4rem;
+		padding-top:.4rem;
   }
 
 }
@@ -92,6 +99,7 @@ background-color:rgb(79,199,254);
   padding-right:3rem;
   /*border:1px red solid;*/
 }
+
 
 .drop-down-item{
   padding-top:.7rem;
@@ -141,8 +149,7 @@ background-color:rgb(79,199,254);
   border-radius: 18px;
 }
 
-  .colored-box{
-
+  .colored-box {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 18px;
@@ -223,6 +230,7 @@ border: 1px solid rgb(229, 135, 68);``
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
   border: 1px solid rgb(238, 80, 62);
 }
+
 
 .red:hover{
 background-color: rgb(254,87,79);
@@ -900,6 +908,14 @@ footer {
   justify-content:space-between;
 }
 
+@media only screen and (max-width: 480px){
+  footer{
+    flex-direction:column;
+    height:8rem;
+		align-items:center;
+  }
+}
+
 .fa-codepen{
   color:rgb(254,153,79);
 }
@@ -935,3 +951,17 @@ footer {
 .vector-credits{
 margin-left:1rem;
 }
+
+@media only screen and (max-width: 480px){
+.vector-credit{
+ margin-top:.5rem;
+ }
+
+ .vector-credits{
+flex-direction:column;
+  }
+}
+
+/**{background: #000 !important;
+color: #0f0 !important;
+outline: solid #f00 1px !important;}*/
