@@ -87,7 +87,6 @@ background-color:rgb(79,199,254);
     padding-bottom:.4rem;
 		padding-top:.4rem;
   }
-
 }
 
 .drop-down-menu{
@@ -295,7 +294,6 @@ display:none;
 .yellow {
   display: none;
 }
-
 }
 
 /*________________________NAME_________________*/
@@ -453,7 +451,6 @@ align-content:center;
 align-items:center;
 justify-content:center;
 width:100%;
-
 /*border:1px red solid;*/
 }
 
@@ -746,7 +743,6 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
     #websites{
       margin-top:5rem;
     }
-
 }
 
 .portfolio-image{
@@ -908,9 +904,9 @@ footer {
   justify-content:space-between;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
   footer{
-    flex-direction:column;
+		flex-direction:column;
     height:8rem;
 		align-items:center;
 		padding-bottom:1rem;
@@ -937,6 +933,9 @@ footer {
 
 .social-icons{
   margin-right:1.5rem;
+	/*border:1px red solid;*/
+	width:100%;
+	justify-content:center;
 }
 
 .vector-credit{
@@ -953,19 +952,19 @@ footer {
 margin-left:1rem;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
 .vector-credit{
  margin-top:.5rem;
- width:80%;
+ width:45%;
+
  }
 
  .vector-credits{
-	 padding-top:1rem;
+align-items:center;
+padding-top:1rem;
 flex-direction:column;
 width:80%;
   }
-
-
 }
 
 /**{background: #000 !important;
