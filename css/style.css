@@ -894,6 +894,12 @@ outline:0;
   border-radius:30px;
 }
 
+@media only screen and (max-width:480px){
+  .contact-text{
+    width:15rem;
+  }
+}
+
 
 /*______________________FOOTER_________________*/
 footer {
@@ -975,6 +981,6 @@ width:80%;
   }
 }
 
-*{background: #000 !important;
+/**{background: #000 !important;
 color: #0f0 !important;
-outline: solid #f00 1px !important;}
+outline: solid #f00 1px !important;}*/
