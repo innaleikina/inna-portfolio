@@ -1,5 +1,6 @@
 body{
   margin:0;
+  padding:0;
 }
 
 html{
@@ -11,7 +12,7 @@ html{
   display: flex;
 }
 
-
+/*
 .alt-grid [class*="col-"] {
   padding-left:0;padding-right:0
 }
@@ -22,11 +23,11 @@ html{
 }
 
 /* container adjusted */
-.alt-grid .container .container-fluid {
+/*.alt-grid .container .container-fluid {
   width:100%;
   max-width:none;
   padding:0;
-}
+}*/
 
 div.home{
   flex-direction:column;
