@@ -6,6 +6,7 @@ $("document").ready(function(){
 
   var scroll = $('body').scrollTop();
 
+//navigation appers when user scrolls
      if (scroll >= 150) {
         $(function () {
             $(".all-small-boxes").hide();
@@ -20,6 +21,7 @@ $("document").ready(function(){
 
   });
 
+//when user clicks the drop down menu it automatically closes, after taking the user to the requested page
   $(".drop-down-menu").hide();
 
   $(".fa-bars").on("click", function(){
