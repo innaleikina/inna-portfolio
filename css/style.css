@@ -12,22 +12,6 @@ html{
   display: flex;
 }
 
-/*
-.alt-grid [class*="col-"] {
-  padding-left:0;padding-right:0
-}
-
-.alt-grid .row {
-  margin-left:0;
-  margin-right:0;
-}
-
-/* container adjusted */
-/*.alt-grid .container .container-fluid {
-  width:100%;
-  max-width:none;
-  padding:0;
-}*/
 
 div.home{
   flex-direction:column;
@@ -397,6 +381,19 @@ margin-bottom: .2rem;
 
 
 /*_________ABOUT _____*/
+div.about {
+height:40rem;
+flex-direction:column;
+background-image: url("../images/watercolor_small.jpg");
+background-position: bottom;
+align-content:center;
+align-items:center;
+justify-content:center;
+width:100%;
+padding-bottom:4rem;
+/*border:1px red solid;*/
+}
+
 
 .about-photo-text{
   flex-direction:row;
@@ -412,7 +409,7 @@ margin-bottom: .2rem;
 @media only screen and (max-width: 768px){
   .about-photo-text{
     width:90%;
-    padding:1rem;
+    padding-bottom:1rem;
 
   /*  justify-content:center;*/
     align-items:center;
@@ -448,17 +445,6 @@ margin-bottom: .2rem;
 }
 
 
-div.about {
-height:40rem;
-flex-direction:column;
-background-image: url("../images/watercolor_small.jpg");
-background-position: bottom;
-align-content:center;
-align-items:center;
-justify-content:center;
-width:100%;
-/*border:1px red solid;*/
-}
 
 
 
@@ -482,7 +468,7 @@ width:100%;
 }
 
 .image-about{
-   background-image:url("../images/laptop.png");
+   /*background-image:url("../images/laptop.png");*/
   height:7rem;
   width:7rem;
  background-size:cover;
@@ -493,6 +479,7 @@ width:100%;
 /*_________SKILLS ______*/
 
 div.skills{
+  padding-top:5rem;
   background-color: rgb(79,199,254);
   flex-direction:column;
   height:40rem;
@@ -504,14 +491,13 @@ div.skills{
 
 
 .skills-header{
-  padding-top:1rem;
-  padding-bottom:1rem;
+  padding-bottom:4rem;
   font-size:3rem;
   font-family:"Amatic SC";
   text-align:center;
  /* width:100%;*/
   color:white;
- /* border:1px red solid;*/
+ /*border:1px red solid;*/
   background-color:rgb(79,199,254);
  }
 
@@ -676,6 +662,8 @@ background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 /*______________________WORK______________*/
 
 div.work-all{
+padding-top:5rem;
+padding-bottom:5rem;
  justify-content:center;
  background-image:url("../images/watercolor_small.jpg");
   background-position:left;
@@ -712,7 +700,7 @@ div.work-all{
   color:gray;
   font-family:"Baskerville";
   text-align:center;
-  margin-bottom:2rem;
+  margin-bottom:3rem;
 }
 
 .apps-portfolio{
@@ -769,9 +757,9 @@ div.work-all{
   background-color:white;
   border-radius:20px;
   padding:1.4rem;
-   box-shadow:3px 3px 5px 3px gray;
-  /*border:1.7px rgb(254,87,79) dashed;*/
-  margin-bottom:2.2rem;
+   /*box-shadow:3px 3px 5px 3px gray;*/
+  border:1.7px rgb(254,87,79) dashed;
+  margin-bottom:2.5rem;
   align-items:center;
   align-content:center;
 }

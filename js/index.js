@@ -4,7 +4,7 @@ $("document").ready(function(){
 
   $(window).scroll(function() {
 
-  var scroll = $('body').scrollTop();
+  var scroll = $(window).scrollTop();
 
 //navigation appers when user scrolls
      if (scroll >= 150) {
