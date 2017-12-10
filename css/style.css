@@ -515,7 +515,7 @@ div.skills{
 
 @media only screen and (max-width:768px){
   .skills-list-2{
-    width:80%;
+    width:100%;
     justify-content:center;
     height:100%;
     flex-direction:column;
@@ -544,7 +544,8 @@ div.skills{
 
 @media only screen and (max-width: 480px){
   .skill-logos{
-  /*border:1px green solid;*/
+    justify-content:space-around;
+   /*border:1px green solid;*/
     margin-top:1rem;
     width:100%;
    }
@@ -559,16 +560,16 @@ div.skills{
 .skill-logo{
   height:5rem;
   width:5rem;
-  background-size:contain;
+  background-size:cover;
   background-repeat:no-repeat;
-/* border:1px red solid;*/
+  /*border:1px red solid;*/
   margin-left:1rem;
   margin-right:1rem;
 }
 
 @media only screen and (max-width: 480px){
   .skill-logo{
- /* border:1px green solid;*/
+ /*border:1px green solid;*/
   margin-left:0rem;
   margin-right:0rem;
   height:4.5rem;
@@ -578,21 +579,22 @@ div.skills{
 
 
 #html{
-background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
+background-image:url("../images/HTML5_Logo.png");
 
 }
 
 #css{
-  padding-right:1rem;
- background-image:url("http://w3widgets.com/responsive-slider/img/css3.png");
+
+
+ background-image:url("../images/css3.png");
 }
 
 #javascript{
-  background-image:url("https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png");
+  background-image:url("../images/js-logo.png");
 }
 
 #adobe{
-  background-image:url("http://pi.om/wp-content/uploads/2016/10/Adobe-logo.png");
+  background-image:url("../images/adobe-logo.png");
 
 }
 
