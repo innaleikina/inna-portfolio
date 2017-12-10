@@ -825,7 +825,6 @@ border:2px rgb(254,87,79) dashed;
 }
 /*_______________________CONTACT_____________*/
 .contact-title{
-  padding-top:5rem;
   color:white;
   font-family:"Amatic SC";
   font-size:3rem;
@@ -834,6 +833,7 @@ border:2px rgb(254,87,79) dashed;
 }
 
 .contact-all{
+  padding-top:4rem;
   height:40rem;
   background-color:rgb(254,153,79);
   flex-direction:column;
