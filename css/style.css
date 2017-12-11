@@ -138,11 +138,12 @@ background-color:rgb(79,199,254);
 }
 
   .colored-box {
+    color:white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 18px;
   font-family: "Amatic SC";
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   letter-spacing: .08rem;
   text-shadow: 0px  -1px 0px rgba(0,0,0,.4);
   -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
@@ -153,9 +154,6 @@ background-color:rgb(79,199,254);
   box-shadow: 0px 2px 0px #b2b4b7, 0px 1px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(186, 186, 186,.3), inset 0px 0px 1px rgba(186, 186, 186,.5);
 }
 
-.yellow {
-background-color: rgb(240,224,37);
-}
 
 
 /*__________________ORANGE______________*/
@@ -260,17 +258,38 @@ border: 1px solid rgb(221, 33, 12);
   }
 
 /*_______________________GRAY______________*/
-.gray {
-  background-color: rgb(188,190,192);
+.gray /*YELLOW COLOR */ {
+  background-color: rgb(240,224,37);
+
+  background: -moz-linear-gradient(top, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240,224,37) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(255, 252, 150) 0%,rgb(262, 232, 97) 44%, rgb(240,224,37) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(255, 252, 150) 0%,rgb(262, 232, 97) 44%, rgb(240,224,37) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(186, 174, 26);
 }
 
+.gray:hover{
+  background-color: rgb(240,224,37);
+ background: -moz-linear-gradient(top, rgb(255, 252, 190) 0%, rgb(262, 232, 157) 44%, rgb(240,224,37) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(255, 252, 190) 0%,rgb(262, 232, 157) 44%, rgb(240,224,37) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(255, 252, 190) 0%,rgb(262, 232, 157) 44%, rgb(240,224,37) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f',GradientType=0 ); /* IE6-9 */
+  border: 1px solid rgb(186, 174, 26);
+}
+  }
+
+
+.gray:active {
+  background-color: rgb(240,224,37);
+  }
+
+.blog{
+  color:rgb(57,57,57);
+}
 
 /*____________________________________________________*/
 /* ______________MENU_MOBILE_______________*/
 @media only screen and (max-width: 768px){
-.gray {
-display:none;
-}
 
 .small-box {
   margin-left: .3rem;
@@ -280,9 +299,7 @@ display:none;
   font-size: 1.2rem;
 }
 
-.yellow {
-  display: none;
-}
+
 }
 
 /*________________________NAME_________________*/
@@ -578,21 +595,22 @@ div.skills{
 
 
 #html{
-background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
+background-image:url("../images/HTML5_Logo.png");
 
 }
 
 #css{
-  padding-right:1rem;
- background-image:url("http://w3widgets.com/responsive-slider/img/css3.png");
+
+ background-image:url("../images/css3.png");
 }
 
 #javascript{
-  background-image:url("https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png");
+  background-image:url("../images/js-logo.png");
 }
 
 #adobe{
-  background-image:url("http://pi.om/wp-content/uploads/2016/10/Adobe-logo.png");
+  border:1px red solid;
+  background-image:url("../images/Adobelogo.png");
 
 }
 
@@ -706,12 +724,18 @@ padding-bottom:5rem;
 .apps-portfolio{
  padding-left:2rem;
   padding-right:2rem;
- width:24rem;
+ width:60%;
  /*height:200vh;*/
   /*height:100%;*/
  flex-direction:column;
 /*border:1px blue solid;*/
 }
+
+/*@media only screen and (min-width: 1024px){
+  .apps-portfolio{
+     width:27rem;
+    }
+  }*/
 
 #websites{
  margin-top:5rem;
@@ -813,7 +837,7 @@ border:2px rgb(254,87,79) dashed;
   padding-left:2rem;
   line-height:1.5rem;
   font-size:.9rem;
-  width:14rem;
+  width:70%;
 }
 
 @media only screen and (max-width: 480px){
