@@ -847,7 +847,7 @@ border:2px rgb(254,87,79) dashed;
 .form{
   width:20rem;
   flex-direction:column;
-  margin-top:1rem;
+  /*margin-top:1rem;*/
 }
 
 label{
