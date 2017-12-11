@@ -515,7 +515,7 @@ div.skills{
 
 @media only screen and (max-width:768px){
   .skills-list-2{
-    width:100%;
+    width:80%;
     justify-content:center;
     height:100%;
     flex-direction:column;
@@ -544,8 +544,7 @@ div.skills{
 
 @media only screen and (max-width: 480px){
   .skill-logos{
-    justify-content:space-around;
-   /*border:1px green solid;*/
+  /*border:1px green solid;*/
     margin-top:1rem;
     width:100%;
    }
@@ -560,16 +559,16 @@ div.skills{
 .skill-logo{
   height:5rem;
   width:5rem;
-  background-size:cover;
+  background-size:contain;
   background-repeat:no-repeat;
-  /*border:1px red solid;*/
+/* border:1px red solid;*/
   margin-left:1rem;
   margin-right:1rem;
 }
 
 @media only screen and (max-width: 480px){
   .skill-logo{
- /*border:1px green solid;*/
+ /* border:1px green solid;*/
   margin-left:0rem;
   margin-right:0rem;
   height:4.5rem;
@@ -579,23 +578,21 @@ div.skills{
 
 
 #html{
-background-image:url("../images/HTML5_Logo.png");
+background-image:url("https://www.w3.org/html/logo/downloads/HTML5_Logo.svg");
 
 }
 
 #css{
-
-
- background-image:url("../images/css3.png");
+  padding-right:1rem;
+ background-image:url("http://w3widgets.com/responsive-slider/img/css3.png");
 }
 
 #javascript{
-  background-image:url("../images/js-logo.png");
+  background-image:url("https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png");
 }
 
 #adobe{
-  border:1px red solid;
-  background-image:url("../images/Adobelogo.png");
+  background-image:url("http://pi.om/wp-content/uploads/2016/10/Adobe-logo.png");
 
 }
 
@@ -709,7 +706,7 @@ padding-bottom:5rem;
 .apps-portfolio{
  padding-left:2rem;
   padding-right:2rem;
- width:27rem;
+ width:24rem;
  /*height:200vh;*/
   /*height:100%;*/
  flex-direction:column;
@@ -835,7 +832,6 @@ border:2px rgb(254,87,79) dashed;
   margin-top:3rem;
 }
 
-
 .contact-all{
   padding-bottom:4rem;
   height:40rem;
@@ -847,19 +843,18 @@ border:2px rgb(254,87,79) dashed;
 .form{
   width:20rem;
   flex-direction:column;
-  /*margin-top:1rem;*/
-}
-
-label{
-  color:rgb(57,57,57);
-  font-family:"Baskerville";
-  padding:.3rem 0 .3rem 0;
   margin-top:1rem;
 }
 
+label {
+  color:rgb(57,57,57);
+  font-family:"Baskerville";
+  padding-bottom:.5rem;
+
+}
 
 .input{
-  /*margin-bottom:1rem;*/
+  margin-bottom:1rem;
   height:1.5rem;
 }
 
@@ -908,12 +903,14 @@ footer {
   background-color:rgb(57,57,57);
   opacity: .8;
   justify-content:space-between;
+  align-items:center;
 }
 
 @media only screen and (max-width: 768px){
   footer{
 		flex-direction:column;
     height:9rem;
+    justify-content:center;
 		align-items:center;
 		padding-bottom:1rem;
   }
@@ -932,16 +929,18 @@ footer {
 }
 
 .social{
+  /*border:1px red solid;*/
   margin-left:.5rem;
   margin-right:.5rem;
-  margin-top:.5rem;
+
 }
 
 .social-icons{
-  margin-right:1.5rem;
+  /*margin-right:1.5rem;*/
 	/*border:1px red solid;*/
 	width:100%;
-	justify-content:center;
+	 justify-content:flex-end;
+  padding-right:1rem;
 }
 
 .vector-credit{
@@ -950,7 +949,7 @@ footer {
   color:white;
   margin-left:1rem;
   margin-right:1rem;
-  margin-top:1.5rem;
+
   width:10rem;
 	line-height:.8rem;
  }
@@ -963,12 +962,14 @@ margin-left:1rem;
 .vector-credit{
  margin-top:.5rem;
  width:100%;
-text-align:center;
+ text-align:center;
  /*border:1px red solid;*/
 }
 
 .social-icons{
+  padding:0;
   margin-right:0;
+  margin-top:1.5rem;
 	/*border:1px red solid;*/
 	width:100%;
 	justify-content:center;
