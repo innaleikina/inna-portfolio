@@ -835,8 +835,9 @@ border:2px rgb(254,87,79) dashed;
   margin-top:3rem;
 }
 
+
 .contact-all{
-  padding-top:4rem;
+  padding-bottom:4rem;
   height:40rem;
   background-color:rgb(254,153,79);
   flex-direction:column;
@@ -849,8 +850,16 @@ border:2px rgb(254,87,79) dashed;
   margin-top:1rem;
 }
 
+label{
+  color:rgb(57,57,57);
+  font-family:"Baskerville";
+  padding:.3rem 0 .3rem 0;
+  margin-top:1rem;
+}
+
+
 .input{
-  margin-bottom:1rem;
+  /*margin-bottom:1rem;*/
   height:1.5rem;
 }
 

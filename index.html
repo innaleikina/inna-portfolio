@@ -5,6 +5,7 @@
   <title>Portfolio FCC</title>
   <link rel="shortcut icon" href="favicon/favicon.ico?" type="image/x-icon">
   <link rel="icon" href="/favicon/favicon.ico?" type="image/x-icon">
+
     <link href="reset.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
@@ -206,20 +207,28 @@
   </div>
 </div>
 <!--________CONTACT_______-->
-<div class="contact-all container" id="contact">
+
+<div class="contact-all container" id="contact-form">
 
   <p class="contact-title"> CONTACT </p>
 
     <p class="contact-text"> I hope you enjoyed my portfolio. Feel free to reach out about any projects or questions.</p>
 
 
-  <form class="container form" method="POST" action="https://formspree.io/designbyinna@gmail.com">
 
+  <form class="container form"  method="post" action="index.php">
+
+     <div class="messages"></div>
+    <label for="form-name"> Name </label>
     <input class="input" type="name" name="name" placeholder="Your name">
 
+    <label for="form-email"> Email</label>
     <input class="input" type="email" name="email" placeholder="Your email">
 
+    <label for="form-message">Message</label>
     <textarea class="message" name="message" placeholder="Your message"></textarea>
+    <label> Are you human ?</label>
+    <input name="human" placeholder="Type Here">
   <button class="contact-button dark-gray small-box colored-box " type="submit">Send</button>
 </form>
 
