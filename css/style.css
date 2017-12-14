@@ -752,9 +752,11 @@ height:auto;
    .work-wrapper{
     display:flex;
     flex-direction:column;
+       height:100%;
   }
 
  .work-all{
+   height:100%;
    flex-direction:row;
   justify-content:center;
  }
