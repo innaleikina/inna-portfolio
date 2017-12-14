@@ -682,7 +682,7 @@ background-image:url("../images/HTML5_Logo.png");
   padding-bottom:5rem;
   background-image:url("../images/watercolor_small.jpg");
   background-position:top;
-  height:100vh;
+  height:auto;
 }
 
 .work-all{
