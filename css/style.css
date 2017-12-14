@@ -682,14 +682,15 @@ background-image:url("../images/HTML5_Logo.png");
   padding-bottom:5rem;
   background-image:url("../images/watercolor_small.jpg");
   background-position:top;
-  flex-direction:column;
+  height:100vh;
 }
 
 .work-all{
 justify-content:center;
 width:100%;
 flex-direction: column;
-height:auto;
+
+height:100vh;
 /*height:100%;*/
 }
 
@@ -752,11 +753,10 @@ height:auto;
    .work-wrapper{
     display:flex;
     flex-direction:column;
-       height:100%;
+
   }
 
  .work-all{
-   height:100%;
    flex-direction:row;
   justify-content:center;
  }
