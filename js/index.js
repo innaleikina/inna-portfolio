@@ -35,8 +35,25 @@ $("document").ready(function(){
 
 $("#quote").on("click", function(){
   $("#modal-quote").css("display","block");
-    console.log("modalquote-displayed");
   });
+
+
+$("#wikipedia").on("click", function(){
+  $("#modal-wikipedia").css("display","block");
+ });
+
+$("#colmar").on("click", function(){
+  $("#modal-colmar").css("display","block");
+});
+
+$("#agent").on("click", function(){
+  $("#modal-agent").css("display","block");
+});
+
+$("#brotherhood").on("click", function(){
+  $("#modal-brotherhood").css("display","block");
+});
+
 
 
 $(".close").on("click", function(){
