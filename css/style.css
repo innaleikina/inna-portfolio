@@ -897,7 +897,7 @@ div.home {
   }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:620px) {
   .work-all {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
