@@ -7,6 +7,10 @@ html {
   font-size: 16px;
 }
 
+button:focus {
+  outline:none
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,8 +24,9 @@ html {
   flex-direction: column;
   height: 45rem;
   /*border:1px green solid;*/
-  background-image: url("../images/watercolor_small.jpg");
-  background-position: top;
+  /*background-image: url("../images/watercolor_small.jpg");
+  background-position: top;*/
+  background-color:rgb(229, 226, 165);
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -61,22 +66,12 @@ html {
 .name-menu {
   margin-left: 2rem;
   font-family: "Amatic SC";
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   letter-spacing: .02rem;
   color: white;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
 }
 
-/*@media only screen and (max-width:768px) {
-  .name-menu {
-    padding-top: .2rem;
-    font-size: 1.7rem;
-  }
-  .sandwich-icon {
-    padding-bottom: .4rem;
-    padding-top: .4rem;
-  }
-}*/
 
 .drop-down-menu {
   -webkit-box-orient: vertical;
@@ -306,8 +301,7 @@ html {
 
 .gray
 /*YELLOW COLOR */
-
-  {
+{
   background-color: rgb(240, 224, 37);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%);
@@ -341,6 +335,7 @@ html {
 
 .blog {
   color: rgb(57, 57, 57);
+  font-size:1.5rem;
 }
 
 /*____________________________________________________*/
@@ -368,6 +363,7 @@ html {
   font-family: "Amatic SC";
   font-weight: 200;
   margin-top: 1rem;
+
   /* padding:2rem;*/
 }
 
@@ -383,6 +379,7 @@ html {
 }
 
 .inna-jones {
+    margin:0 .5rem;
   font-size: 4.6rem;
   text-align: center;
   /*border:1px red solid;*/
@@ -394,7 +391,7 @@ html {
 
 .skills-list {
   /*border:1px red solid;*/
-  margin-top: .3rem;
+  margin: .3rem .5rem 0 .5rem ;
   font-size: 1.2rem;
   letter-spacing: .03rem;
 }
@@ -458,12 +455,14 @@ html {
 /*_________ABOUT _____*/
 
 .about {
-  height: 40rem;
+  /*border:1px red solid;*/
+  height: 47rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-image: url("../images/watercolor_small.jpg");
+  /*background-image: url("../images/watercolor_small.jpg");*/
+  background-color:rgb(229, 226, 165);
   background-position: bottom;
   -ms-flex-line-pack: center;
   align-content: center;
@@ -471,11 +470,23 @@ html {
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  /*-ms-flex-pack: center;
+  justify-content: center;*/
   width: 100%;
   padding-bottom: 4rem;
   /*border:1px red solid;*/
+}
+
+.about-heading{
+  /*border:1px red solid;*/
+  margin:5rem 0;
+  font-size: 3rem;
+  font-family: "Amatic SC";
+  text-align: center;
+  /* width:100%;*/
+  color: white;
+  /*border:1px red solid;*/
+
 }
 
 .about-photo-text {
@@ -558,15 +569,6 @@ html {
   }
 }
 
-.image-about {
-  /*background-image:url("../images/laptop.png");*/
-  height: 7rem;
-  width: 7rem;
-  background-size: cover;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  /* border:1px red so*/
-}
 
 /*_________SKILLS ______*/
 
@@ -765,7 +767,7 @@ html {
 .work-wrapper {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../images/watercolor_small.jpg");
+  background-color:rgb(229, 226, 165);
   background-position: top;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -928,6 +930,12 @@ html {
   width: 80%;
 }
 
+@media only screen and (max-width:480px){
+  .modal-content{
+     max-width:100%;
+  }
+}
+
 .name-close {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -985,14 +993,22 @@ html {
 
 
 .image-modal {
-  border:.5px black solid;
   width: 60%;
   margin: 0 1rem;
   margin-bottom: 3rem;
 }
 
+@media only screen and (max-width:480px){
+  .image-modal{
+    width:90%;
+    margin-bottom:2rem;
+  }
+}
+
+
 .image-modal img {
   width: 100%;
+    border:1px rgba(100,100,100,.6) solid;
 }
 
 .modal-text {
@@ -1004,8 +1020,15 @@ html {
 
 .modal-text p {
   width: 100%;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   font-family: "Baskerville";
+  margin-bottom:3rem;
+}
+
+@media only screen and (max-width:480px){
+  .modal-text {
+    width:90%;
+  }
 }
 
   .modal-text a{
@@ -1013,11 +1036,19 @@ html {
   }
 
 @media only screen and (max-width:768px){
-
-
-  .modal-text a{
+.modal-text a{
    margin-top:1rem;
   }
+}
+
+.visit {
+  padding:1rem;
+  background-color:rgba(254, 87, 79,1);
+  border-radius:10px;
+  border:none;
+  margin-bottom:2rem;
+  color:white;
+  font-weight:bold;
 }
 /*_______________________CONTACT_____________*/
 
@@ -1026,7 +1057,7 @@ html {
   font-family: "Amatic SC";
   font-size: 3rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .contact-all {

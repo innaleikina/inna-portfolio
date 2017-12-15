@@ -33,6 +33,12 @@ $("document").ready(function(){
 //Module pops up when user clicks on a project
 // $(".modal").hide();
 
+$("#weather").on("click", function(){
+  $("#modal-weather").css("display","block");
+  });
+
+
+
 $("#quote").on("click", function(){
   $("#modal-quote").css("display","block");
   });
@@ -60,7 +66,13 @@ $(".close").on("click", function(){
   $(".modal").hide();
 });
 
-
+// Closes the modal if user clicks anywhere on the screen
+$(window).on("click", function(event) {
+     var target = $(event.target);
+    if (target.is (".modal")) {
+        $(".modal").hide();
+    }
+});
 
 
 });

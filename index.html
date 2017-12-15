@@ -116,14 +116,14 @@
 
 <!-- ____________ABOUT______-->
 <div class="container about" id="about">
-
+  <h1 class="about-heading"> ABOUT  </h1>
   <div class="image-about container">
   </div>
 
   <div class="about-photo-text container">
     <div class="inna-photo container">
     </div>
-    <div class="about-text container"> Hi! I'm Inna. I love building responsive, clean and functional websites. I have a degree in Graphic Design from Pratt Institute, and my knowledge of design principles allows me to build visually appealing as well as user friendly websites.</br>
+    <div class="about-text container"> Hi! I'm Inna. I love building responsive, clean and functional websites. I have a degree in Graphic Design from Pratt Institute, and my knowledge of design principles allows me to build visually appealing as well as user friendly websites.</br></br>
       What I love most about web development is the constant challenge. I am always excited to take on new projects and find solutions to new problems. </div>
   </div>
 </div>
@@ -171,14 +171,40 @@
 
      <div class="row container">
 
+
+
+<!--___________________WEATHER__________________________-->
        <div class="project container">
-         <a href="#" style="text-decoration:none">
+         <a id="weather" style="text-decoration:none">
            <div class"project-image">
              <img class="image" src="./images/weather.jpg"/>
            </div>
            <p class="project-name"> Weather App </p>
          </a>
        </div>
+  <!--________________ MODAL WEATHER _____________________-->
+
+  <div class="modal" id="modal-weather">
+    <div class="modal-content container">
+      <div class="name-close container">
+        <h1> The Weather App </h1>
+        <span class="close">&times;</span>
+      </div>
+
+      <div class="image-text-modal container">
+        <div class="image-modal">
+           <img src="./images/weather-modal.jpg">
+        </div>
+        <div class="modal-text container">
+
+          <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit. </p>
+          <a href="https://innaleikina.github.io/weatherapp/" target="_blank"> <button class="visit"> VISIT</button> </a>
+        </div>
+       </div>
+     </div>
+  </div>
+
+
 
 <!--_______________________QUOTE__________________________________-->
        <div class="project container">
@@ -205,17 +231,16 @@
              </div>
              <div class="modal-text container">
 
-               <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit.</br></br>
-
-               I really enjoyed building this app. Unfortunately geolocation doesn't work on some Safari browsers. After searching the web, and asking for help, I was able to implement an error message that is triggered if the location can not be found. </p>
-               <a href="https://innaleikina.github.io/random-quote/" target="_blank"> <button> VISIT</button> </a>
+               <p>The Random Quote Generator uses the Quotes On Design API, to generate a random quote each time the user presses a button. It also uses the Twitter API to make each quote tweetable.
+               </p>
+               <a href="https://innaleikina.github.io/random-quote/" target="_blank"> <button class="visit"> VISIT</button> </a>
              </div>
             </div>
           </div>
        </div>
 
 
-<!--_____________WIKIPEDOA________________-->
+<!--_____________WIKIPEDIA________________-->
       <div class="project container ">
         <a id="wikipedia" style="text-decoration:none">
           <div class"project-image">
@@ -231,7 +256,7 @@
            <div class="modal" id="modal-wikipedia">
              <div class="modal-content container">
                <div class="name-close container">
-                 <h1> Random Quote Generator </h1>
+                 <h1> Wikipedia Search </h1>
                  <span class="close">&times;</span>
                </div>
 
@@ -241,10 +266,8 @@
                  </div>
                  <div class="modal-text container">
 
-                   <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit.</br></br>
-
-                   I really enjoyed building this app. Unfortunately geolocation doesn't work on some Safari browsers. After searching the web, and asking for help, I was able to implement an error message that is triggered if the location can not be found. </p>
-                   <a href="https://innaleikina.github.io/random-quote/" target="_blank"> <button> VISIT</button> </a>
+                   <p> The Wikipedia app uses the Wikipedia API to pull up search results based on the user's search word. The random article button takes the user to a random Wikipedia article. </p>
+                   <a href="https://innaleikina.github.io/wikipedia/" target="_blank"> <button class="visit"> VISIT</button> </a>
                  </div>
                 </div>
               </div>
@@ -267,7 +290,7 @@
     <div class="modal" id="modal-colmar">
       <div class="modal-content container">
         <div class="name-close container">
-          <h1> Random Quote Generator </h1>
+          <h1> Colmar Academy </h1>
           <span class="close">&times;</span>
         </div>
 
@@ -277,10 +300,8 @@
           </div>
           <div class="modal-text container">
 
-            <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit.</br></br>
-
-            I really enjoyed building this app. Unfortunately geolocation doesn't work on some Safari browsers. After searching the web, and asking for help, I was able to implement an error message that is triggered if the location can not be found. </p>
-            <a href="https://innaleikina.github.io/random-quote/" target="_blank"> <button> VISIT</button> </a>
+            <p> The Colmar Academy landing page was my final project for a Codeacademy class I took. The wireframe for element positions was provided for us, but the final design of the elements is completely mine. The design of the responsive screens is mine as well.  </p>
+            <a href="https://innaleikina.github.io/capstone/" target="_blank"> <button class="visit"> VISIT</button> </a>
           </div>
          </div>
        </div>
@@ -302,7 +323,7 @@
 <div class="modal" id="modal-agent">
   <div class="modal-content container">
     <div class="name-close container">
-      <h1> Random Quote Generator </h1>
+      <h1> Secret Agent Supply </h1>
       <span class="close">&times;</span>
     </div>
 
@@ -312,10 +333,9 @@
       </div>
       <div class="modal-text container">
 
-        <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit.</br></br>
-
-        I really enjoyed building this app. Unfortunately geolocation doesn't work on some Safari browsers. After searching the web, and asking for help, I was able to implement an error message that is triggered if the location can not be found. </p>
-        <a href="https://innaleikina.github.io/random-quote/" target="_blank"> <button> VISIT</button> </a>
+        <p> The Secret Agent Supply landing page is a Codeacademy project. I recreated a photoshop file that was provided to us, using HTML and CSS. This landing page is completely responsive.
+        </p>
+        <a href="https://innaleikina.github.io/agent/" target="_blank"> <button class="visit"> VISIT</button> </a>
       </div>
      </div>
    </div>
@@ -338,7 +358,7 @@
     <div class="modal" id="modal-brotherhood">
       <div class="modal-content container">
         <div class="name-close container">
-          <h1> Random Quote Generator </h1>
+          <h1> Sleeping Brotherhood Studio </h1>
           <span class="close">&times;</span>
         </div>
 
@@ -348,10 +368,8 @@
           </div>
           <div class="modal-text container">
 
-            <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit.</br></br>
-
-            I really enjoyed building this app. Unfortunately geolocation doesn't work on some Safari browsers. After searching the web, and asking for help, I was able to implement an error message that is triggered if the location can not be found. </p>
-            <a href="https://innaleikina.github.io/random-quote/" target="_blank"> <button> VISIT</button> </a>
+            <p>  The website for Sleeping Brotherhood Music Studio is a completely responsive website I built and designed from scratch for a local music studio.</p>
+            <a href="https://innaleikina.github.io/sleepingbrotherhood/" target="_blank"> <button class="visit"> VISIT</button> </a>
           </div>
          </div>
        </div>
