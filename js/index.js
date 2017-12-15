@@ -31,13 +31,11 @@ $("document").ready(function(){
    })
 
 //Module pops up when user clicks on a project
-$(".modal").hide();
+// $(".modal").hide();
 
 $("#quote").on("click", function(){
   $("#modal-quote").css("display","block");
     console.log("modalquote-displayed");
-  $(".modal").css("display","block");
-    console.log("modal-displayed");
   });
 
 
