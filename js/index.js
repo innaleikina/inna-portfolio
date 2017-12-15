@@ -31,7 +31,7 @@ $("document").ready(function(){
    })
 
 //Module pops up when user clicks on a project
-
+$(".modal").hide();
 
 $("#quote").on("click", function(){
   $("#modal-quote").css("display","block");
