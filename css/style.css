@@ -13,7 +13,7 @@ html {
   display: flex;
 }
 
-div.home {
+.home {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -40,11 +40,6 @@ div.home {
   z-index: 1;
 }
 
-@media only screen and (max-width:768px) {
-  .scrolled-menu {
-    width: 100%;
-  }
-}
 
 .sandwich-icon {
   width: 100%;
@@ -72,7 +67,7 @@ div.home {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
 }
 
-@media only screen and (max-width:768px) {
+/*@media only screen and (max-width:768px) {
   .name-menu {
     padding-top: .2rem;
     font-size: 1.7rem;
@@ -81,7 +76,7 @@ div.home {
     padding-bottom: .4rem;
     padding-top: .4rem;
   }
-}
+}*/
 
 .drop-down-menu {
   -webkit-box-orient: vertical;
