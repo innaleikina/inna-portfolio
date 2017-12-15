@@ -30,16 +30,22 @@ $("document").ready(function(){
      $(".drop-down-menu").hide();
    })
 
+//Module pops up when user clicks on a project
 
-//   $(document).click(function(e) {
-//     //if the menu is visible
-//     if($(".scrolled-menu").show()) {
-//         //if the click is outside of menu
-//         if($(e.target).closest(".scrolled-menu").length === 0){
-//             $('.drop-down-menu').hide();
-//         }
-//     }
-// });
+
+$("#quote").on("click", function(){
+  $("#modal-quote").css("display","block");
+    console.log("modalquote-displayed");
+  $(".modal").css("display","block");
+    console.log("modal-displayed");
+  });
+
+
+$(".close").on("click", function(){
+  $(".modal").hide();
+});
+
+
 
 
 });

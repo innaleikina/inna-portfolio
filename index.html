@@ -6,7 +6,6 @@
  <meta name="keywords" content="inna, leikina, web, design, development, denver, colorado, aurora">
  <meta name="author" content="Inna Leikina">
   <title>Inna Leikina</title>
-  <link rel="shortcut icon" href="favicon/favicon.ico?" type="image/x-icon">
   <link rel="icon" href="/favicon/favicon.ico?" type="image/x-icon">
     <link href="reset.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
@@ -165,7 +164,7 @@
   </ul>
 </div>
 <!-- ________ WORK ____-->
-<div class="work-wrapper container">
+<div class="work-wrapper container" id="work">
   <h1 class="work-heading"> WORK </h1>
   <div class="work-all container">
 
@@ -181,13 +180,38 @@
          </a>
        </div>
 
+<!--_______________________QUOTE__________________________________-->
        <div class="project container">
-         <a href="#" style="text-decoration:none">
-           <div class"project-image">
+         <a  id="quote" style="text-decoration:none">
+           <div class"project-image" >
              <img class="image" src="./images/quote.jpg"/>
            </div>
            <p class="project-name"> Random Quote Generator</p>
          </a>
+       </div>
+
+       <!--_______________MODAL_QUOTE___________-->
+
+       <div class="modal" id="modal-quote">
+         <div class="modal-content container">
+           <div class="name-close container">
+             <h1> Random Quote Generator </h1>
+             <span class="close">&times;</span>
+           </div>
+
+           <div class="image-text-modal container">
+             <div class="image-modal">
+                <img src="./images/quote-modal.jpg">
+             </div>
+             <div class="modal-text container">
+
+               <p> The weather app uses geolocation to find the user's location and Free Code Camp API to display accurate temperature and weather conditions. The app also has a button to convert Celsius to Fahrenheit.
+
+               I really enjoyed building this app. Unfortunately geolocation doesn't work on some Safari browsers. After searching the web, and asking for help, I was able to implement an error message that is triggered if the location can not be found. </p>
+               <a href="https://innaleikina.github.io/random-quote/" target="_blank"> See the project </a>
+             </div>
+            </div>
+          </div>
        </div>
 
 

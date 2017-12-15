@@ -336,7 +336,6 @@ border: 1px solid rgb(221, 33, 12);
 margin-top: .3rem;
 font-size: 1.2rem;
 letter-spacing: .03rem;
-
 }
 
 .skills-list li {
@@ -396,7 +395,7 @@ margin-bottom: .2rem;
 
 
 /*_________ABOUT _____*/
-div.about {
+.about {
 height:40rem;
 flex-direction:column;
 background-image: url("../images/watercolor_small.jpg");
@@ -469,7 +468,6 @@ padding-bottom:4rem;
   padding:2rem;
 /*border:1px red solid;*/
   width:38%;
-
   line-height:1.4rem;
   color:rgb(57,57,57);
  /* margin-top:1.3rem;*/
@@ -493,7 +491,7 @@ padding-bottom:4rem;
 }
 /*_________SKILLS ______*/
 
-div.skills{
+.skills{
   padding-top:5rem;
   background-color: rgb(79,199,254);
   flex-direction:column;
@@ -682,6 +680,7 @@ background-image:url("../images/HTML5_Logo.png");
   padding-bottom:5rem;
   background-image:url("../images/watercolor_small.jpg");
   background-position:top;
+  flex-direction:column;
   height:100%;
 }
 
@@ -689,9 +688,6 @@ background-image:url("../images/HTML5_Logo.png");
 justify-content:center;
 width:100%;
 flex-direction: column;
-
-/*height:100%;*/
-/*height:100%;*/
 }
 
 .work-heading{
@@ -791,6 +787,88 @@ flex-direction: column;
 .work-all{
   flex-direction:column;
 }
+}
+
+/*_____________________MODULE STYLING_________________*/
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+.modal-content {
+    flex-direction:column;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.name-close {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  letter-spacing: .2rem;
+}
+
+.name-close h1{
+  font-family:"Helvetica";
+  font-size:1,4rem;
+  font-weight:bold;
+  text-align: center;
+  width:100%;
+  padding:1rem 0 2rem 0;
+  text-transform: uppercase;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image-text-modal{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.image-modal{
+  width:80%;
+  margin:0 1rem;
+  margin-bottom:2rem;
+}
+
+.image-modal img {
+  width:100%;
+}
+
+.modal-text{
+  width:80%;
+  margin:0 1rem;
+}
+
+.modal-text p{
+  width:60%;
+  line-height: 1.3rem;
+  font-family: "Baskerville";
 }
 
 
