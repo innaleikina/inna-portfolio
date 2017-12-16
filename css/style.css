@@ -97,6 +97,7 @@ button:focus {
   padding-left: 2rem;
   color: rgb(79, 199, 254);
   letter-spacing: .02rem;
+  font-size:1.3rem;
 }
 
 .drop-down-item:hover {
