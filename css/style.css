@@ -335,7 +335,6 @@ button:focus {
 
 .blog {
   color: rgb(57, 57, 57);
-  font-size:1.5rem;
 }
 
 /*____________________________________________________*/
@@ -452,6 +451,11 @@ button:focus {
   /* border:1px red solid; */
 }
 
+@media only screen and (max-width:480px){
+  .small-box-text{
+    font-size:1.45rem;
+  }
+}
 /*_________ABOUT _____*/
 
 .about {
@@ -1172,6 +1176,10 @@ footer {
 
 .fa-github {
   color: rgb(240, 224, 37);
+}
+
+.fa-camera-retro{
+  color:rgb(79, 199, 254);
 }
 
 .social {
