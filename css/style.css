@@ -381,7 +381,7 @@ button:focus {
   }
   .small-box {
     margin-left: .2rem;
-    margin-right: .1rem;
+    margin-right: .2rem;
     height: 3.4rem;
     width: 3.4rem;
     font-size: 1.2rem;
@@ -389,10 +389,10 @@ button:focus {
   }
 
   .small-box-text {
-    text-shadow: 0px 2px black;
+    text-shadow: 0px 0px white;
     font-size: 1.2rem;
     color:white;
-    background-color: rgba(57, 57, 57, .1);
+    background-color: rgba(57, 57, 57, .2);
     width:100%;
     text-align: center;
     padding:.4rem 0;
@@ -403,6 +403,7 @@ button:focus {
     text-shadow:none;
   }
 }
+
 
 /*________________________NAME_________________*/
 
@@ -418,9 +419,14 @@ button:focus {
   font-weight: 200;
   margin-top: 16px;
   margin-top: 1rem;
-
-  /* padding:2rem;*/
 }
+
+@media only screen and (max-width: 350px) {
+.name{
+  padding:1em 0;
+}
+}
+
 
 .name .name-skills {
   -webkit-box-pack: center;
