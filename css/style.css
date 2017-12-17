@@ -804,7 +804,7 @@ button:focus {
 }
 
 #adobe {
-  border: 1px red solid;
+  border: 1px red transparent;
   background-image: url("../images/Adobelogo.png");
 }
 
