@@ -950,12 +950,12 @@ button:focus {
   font-weight: lighter;
   padding: 16px 0;
   padding: 1rem 0;
-  font-family: "Helvetica";
+  font-family: "Baskerville";
   font-size: 16px;
   font-size: 1rem;
   letter-spacing: 1.6px;
   letter-spacing: .1rem;
-  color: rgb(57, 57, 57);
+  color: rgb(57,57,57);
 }
 
 .project-image {
