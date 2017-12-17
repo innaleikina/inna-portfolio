@@ -384,6 +384,7 @@ button:focus {
     margin-right: .2rem;
     height: 3.4rem;
     width: 3.4rem;
+    font-size: 1.2rem;
     color:black;
   }
 
@@ -803,7 +804,7 @@ button:focus {
 }
 
 #adobe {
-  border: 1px red ;
+  border: 1px red transparent;
   background-image: url("../images/Adobelogo.png");
 }
 
@@ -1043,18 +1044,15 @@ button:focus {
     -webkit-transform: rotate(135deg);
     margin:-2rem 1rem 0 1rem;
 }
-
 @media only screen and (max-width:480px){
   .arrow-left{
     padding:5px;
     margin:-2rem 0 0 0;
   }
 }
-
 .arrow-left:hover {
     border-color:rgba(0,0,0,1);
 }
-
 .arrow-right{
   border: solid rgba(100,100,100,.6);
   border-width: 0 3px 3px 0;
@@ -1064,23 +1062,19 @@ button:focus {
   -webkit-transform: rotate(-45deg);
   margin:-2rem 1rem 0 1rem;
 }
-
 @media only screen and (max-width:480px){
   .arrow-right{
     padding:5px;
     margin:-2rem 0 0 0;
   }
 }
-
 .arrow-right:hover {
     border-color:rgba(0,0,0,1);
 }
-
 .arrow{
   padding:1rem;
   border:none;
 }
-
 .arrows-image{
   /*border:1px red solid;*/
   /*justify-content: center;
@@ -1088,7 +1082,6 @@ button:focus {
   align-content: center;
   margin-bottom: 3rem;
 }
-
 @media only screen and (max-width:480px){
   .arrows-image{
     margin-bottom:2rem;
@@ -1143,20 +1136,20 @@ button:focus {
 }
 
 .name-close h1 {
-  /*font-family: "Baskerville";*/
+  font-family: "Helvetica";
   font-size: 1, 64px;
   font-size: 1, 4rem;
-  color:white;
   font-weight: bold;
   text-align: center;
   width: 100%;
   margin: 16px 0 19.2px 0;
   margin: 1rem 0 1.2rem 0;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   /*border: 1px red solid;*/
   padding: 16px 0;
   padding:1rem 0;
-  }
+  color:rgba(254, 87, 79,1);
+}
 
 .close {
   color: #aaa;
