@@ -363,13 +363,24 @@ button:focus {
 
 /* ______________MENU_MOBILE_______________*/
 
+
 @media only screen and (max-width: 768px) {
+  .small-box {
+    margin-left: .3rem;
+    margin-right: .3rem;
+    height: 3.9rem;
+    width: 3.9rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
 
   .all-small-boxes{
     width:100%;
   }
   .small-box {
-    margin-left: .1rem;
+    margin-left: .2rem;
     margin-right: .1rem;
     height: 3.4rem;
     width: 3.4rem;
@@ -381,6 +392,10 @@ button:focus {
     text-shadow: 0px 2px black;
     font-size: 1.2rem;
     color:white;
+    background-color: rgba(57, 57, 57, .1);
+    width:100%;
+    text-align: center;
+    padding:.4rem 0;
   }
 
   .blog{
