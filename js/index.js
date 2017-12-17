@@ -75,4 +75,22 @@ $(window).on("click", function(event) {
 });
 
 
+// var i;
+//  var modalArray = [("#modal-weather"), ("#modal-quote"), ("#modal-wikipedia"),("#modal-colmar"),("#modal-agent"),("#modal-brotherhood")];
+//
+// for (i =0; i < modalArray.length; i++){
+//     $(modalArray[i]).css("display","none");
+//     if ($(modalArray[i]).css("display", "block")){
+//       console.log(modalArray[i]);
+//       $(".arrow-right").on("click", function(){
+//         $(modalArray[i]).hide();
+//         $(modalArray[i + 1]).css("display","block");
+//       })
+//     };
+// };
+
+
+
+
+
 });

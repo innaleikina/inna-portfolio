@@ -22,6 +22,7 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 720px;
   height: 45rem;
   /*border:1px green solid;*/
   /*background-image: url("../images/watercolor_small.jpg");
@@ -51,22 +52,29 @@ button:focus {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-bottom: 16px;
   padding-bottom: 1rem;
+  padding-top: 16px;
   padding-top: 1rem;
 }
 
 .fa-bars {
   color: white;
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   cursor: pointer;
   z-index: 1;
+  margin-right: 32px;
   margin-right: 2rem;
 }
 
 .name-menu {
+  margin-left: 32px;
   margin-left: 2rem;
   font-family: "Amatic SC";
+  font-size: 35.2px;
   font-size: 2.2rem;
+  letter-spacing: 0.32px;
   letter-spacing: .02rem;
   color: white;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
@@ -81,22 +89,30 @@ button:focus {
   position: absolute;
   -webkit-box-align: end;
   -ms-flex-align: end;
-  align-items: flex-end;
+  -ms-grid-row-align: flex-end;
+      align-items: flex-end;
   /*//float:right;*/
   right: -2%;
+  padding-right: 48px;
   padding-right: 3rem;
   /*border:1px red solid;*/
 }
 
 .drop-down-item {
+  padding-top: 11.2px;
   padding-top: .7rem;
+  padding-bottom: 11.2px;
   padding-bottom: .7rem;
   font-family: "Baskerville";
   background-color: white;
+  padding-right: 32px;
   padding-right: 2rem;
+  padding-left: 32px;
   padding-left: 2rem;
   color: rgb(79, 199, 254);
+  letter-spacing: 0.32px;
   letter-spacing: .02rem;
+  font-size: 20.8px;
   font-size:1.3rem;
 }
 
@@ -119,17 +135,25 @@ button:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding-top: 40px;
   padding-top: 2.5rem;
+  padding-bottom: 32px;
   padding-bottom: 2rem;
   opacity: .8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  margin-top: -64px;
   margin-top: -4rem;
 }
 
 .small-box {
+  width: 88px;
   width: 5.5rem;
+  height: 83.2px;
   height: 5.2rem;
   /*border:1px red solid;*/
+  margin-left: 16px;
   margin-left: 1rem;
+  margin-right: 16px;
   margin-right: 1rem;
   /*color: rgb(245,250,247);*/
   -webkit-box-pack: center;
@@ -137,7 +161,8 @@ button:focus {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
   /*box-shadow: 2px 2px 2px #D1D1D1;
   box-shadow:inset 0px 1px 0px rgba(255,255,255,.3);*/
   border-radius: 18px;
@@ -147,11 +172,11 @@ button:focus {
   color: white;
   border-radius: 18px;
   font-family: "Amatic SC";
+  font-size: 30.4px;
   font-size: 1.9rem;
+  letter-spacing: 1.28px;
   letter-spacing: .08rem;
-  -webkit-box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4);
   box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4);
-  -webkit-box-shadow: 0px 2px 0px #b2b4b7, 0px 1px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(186, 186, 186, .3), inset 0px 0px 1px rgba(186, 186, 186, .5);
   box-shadow: 0px 2px 0px #b2b4b7, 0px 1px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(186, 186, 186, .3), inset 0px 0px 1px rgba(186, 186, 186, .5);
 }
 
@@ -165,7 +190,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(249, 185, 142)), color-stop(44%, rgb(249, 162, 104)), to(rgb(254, 153, 79)));
-  background: -o-linear-gradient(top, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%);
   background: linear-gradient(to bottom, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -180,7 +204,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(248, 214, 159) 0%, rgb(247, 182, 79) 44%, rgb(254, 153, 79) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(248, 214, 159)), color-stop(44%, rgb(247, 182, 79)), to(rgb(254, 153, 79)));
-  background: -o-linear-gradient(top, rgb(248, 214, 159) 0%, rgb(247, 182, 79) 44%, rgb(254, 153, 79) 100%);
   background: linear-gradient(to bottom, rgb(248, 214, 159) 0%, rgb(247, 182, 79) 44%, rgb(254, 153, 79) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -201,7 +224,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(74, 231, 280)), color-stop(44%, rgb(74, 208, 278)), to(rgb(79, 189, 254)));
-  background: -o-linear-gradient(top, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%);
   background: linear-gradient(to bottom, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -216,7 +238,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(133, 240, 248) 0%, rgb(65, 222, 230) 44%, rgb(79, 199, 254) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(133, 240, 248)), color-stop(44%, rgb(65, 222, 230)), to(rgb(79, 199, 254)));
-  background: -o-linear-gradient(top, rgb(133, 240, 248) 0%, rgb(65, 222, 230) 44%, rgb(79, 199, 254) 100%);
   background: linear-gradient(to bottom, rgb(133, 240, 248) 0%, rgb(65, 222, 230) 44%, rgb(79, 199, 254) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -237,7 +258,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(251, 144, 141)), color-stop(44%, rgb(254, 96, 104)), to(rgb(254, 77, 79)));
-  background: -o-linear-gradient(top, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%);
   background: linear-gradient(to bottom, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -251,7 +271,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(246, 178, 176) 0%, rgb(248, 122, 118) 44%, rgb(254, 87, 79) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(246, 178, 176)), color-stop(44%, rgb(248, 122, 118)), to(rgb(254, 87, 79)));
-  background: -o-linear-gradient(top, rgb(246, 178, 176) 0%, rgb(248, 122, 118) 44%, rgb(254, 87, 79) 100%);
   background: linear-gradient(to bottom, rgb(246, 178, 176) 0%, rgb(248, 122, 118) 44%, rgb(254, 87, 79) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -272,7 +291,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(142, 142, 142)), color-stop(44%, rgb(112, 112, 112)), to(rgb(57, 47, 57)));
-  background: -o-linear-gradient(top, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%);
   background: linear-gradient(to bottom, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -286,7 +304,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(191, 190, 190) 0%, rgb(158, 158, 158) 44%, rgb(57, 57, 57) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(191, 190, 190)), color-stop(44%, rgb(158, 158, 158)), to(rgb(57, 57, 57)));
-  background: -o-linear-gradient(top, rgb(191, 190, 190) 0%, rgb(158, 158, 158) 44%, rgb(57, 57, 57) 100%);
   background: linear-gradient(to bottom, rgb(191, 190, 190) 0%, rgb(158, 158, 158) 44%, rgb(57, 57, 57) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -308,7 +325,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 252, 150)), color-stop(44%, rgb(262, 232, 97)), to(rgb(240, 224, 37)));
-  background: -o-linear-gradient(top, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%);
   background: linear-gradient(to bottom, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -322,7 +338,6 @@ button:focus {
   background: -webkit-linear-gradient(top, rgb(255, 252, 190) 0%, rgb(262, 232, 157) 44%, rgb(240, 224, 37) 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 252, 190)), color-stop(44%, rgb(262, 232, 157)), to(rgb(240, 224, 37)));
-  background: -o-linear-gradient(top, rgb(255, 252, 190) 0%, rgb(262, 232, 157) 44%, rgb(240, 224, 37) 100%);
   background: linear-gradient(to bottom, rgb(255, 252, 190) 0%, rgb(262, 232, 157) 44%, rgb(240, 224, 37) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
@@ -356,12 +371,15 @@ button:focus {
 
 .name {
   opacity: .8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  height: 112px;
   height: 7rem;
   background-color: rgb(57, 57, 57);
   color: rgb(245, 250, 247);
   /* border: 1px red solid;*/
   font-family: "Amatic SC";
   font-weight: 200;
+  margin-top: 16px;
   margin-top: 1rem;
 
   /* padding:2rem;*/
@@ -374,29 +392,38 @@ button:focus {
   width: 100%;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
   /* border: 1px blue solid;*/
 }
 
 .inna-jones {
+    margin: 0 8px;
     margin:0 .5rem;
+  font-size: 73.6px;
   font-size: 4.6rem;
   text-align: center;
   /*border:1px red solid;*/
   /*  width:100%;*/
+  padding-left: 32px;
   padding-left: 2rem;
+  padding-right: 32px;
   padding-right: 2rem;
   text-shadow: 0px -5px 0px rgba(0, 0, 0, 1);
 }
 
 .skills-list {
   /*border:1px red solid;*/
+  margin: 4.8px 8px 0 8px;
   margin: .3rem .5rem 0 .5rem ;
+  font-size: 19.2px;
   font-size: 1.2rem;
+  letter-spacing: 0.48px;
   letter-spacing: .03rem;
 }
 
 .skills-list li {
+  margin-bottom: 3.2px;
   margin-bottom: .2rem;
 }
 
@@ -414,7 +441,8 @@ button:focus {
     justify-content: flex-start;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -ms-grid-row-align: center;
+        align-items: center;
   }
   .inna-jones {
     font-size: 3.5rem;
@@ -431,6 +459,7 @@ button:focus {
 }
 
 .skills-list {
+  line-height: 22.4px;
   line-height: 1.4rem;
   /*  border:1px red solid;*/
 }
@@ -440,14 +469,18 @@ button:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-top: 80px;
   margin-top: 5rem;
 }
 
 .image-computer {
   background-image: url("../images/workspace.svg");
+  height: 320px;
   height: 20rem;
+  width: 320px;
   width: 20rem;
   background-size: cover;
+  margin-top: 0px;
   margin-top: 0rem;
   /* border:1px red solid; */
 }
@@ -461,6 +494,7 @@ button:focus {
 
 .about {
   /*border:1px red solid;*/
+  height: 752px;
   height: 47rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -473,18 +507,22 @@ button:focus {
   align-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
   -webkit-box-pack: center;
   /*-ms-flex-pack: center;
   justify-content: center;*/
   width: 100%;
+  padding-bottom: 64px;
   padding-bottom: 4rem;
   /*border:1px red solid;*/
 }
 
 .about-heading{
   /*border:1px red solid;*/
+  margin: 80px 0;
   margin:5rem 0;
+  font-size: 48px;
   font-size: 3rem;
   font-family: "Amatic SC";
   text-align: center;
@@ -499,7 +537,9 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  width: 784px;
   width: 49rem;
+  padding: 32px;
   padding: 2rem;
   /*border:1px red solid;*/
   -webkit-box-pack: center;
@@ -517,7 +557,8 @@ button:focus {
     /*  justify-content:center;*/
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -ms-grid-row-align: center;
+        align-items: center;
     -ms-flex-line-pack: center;
     align-content: center;
   }
@@ -533,7 +574,8 @@ button:focus {
     /*  justify-content:center;*/
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -ms-grid-row-align: center;
+        align-items: center;
     -ms-flex-line-pack: center;
     align-content: center;
   }
@@ -542,8 +584,11 @@ button:focus {
 .inna-photo {
   background-image: url("https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/13173763_10154267338127203_7738135201483270409_n.jpg?oh=a05ee7e3c885dad67158606fdcf9eae2&oe=5AA200B4");
   background-size: cover;
+  width: 192px;
   width: 12rem;
+  height: 192px;
   height: 12rem;
+  margin: 32px 48px 32px 0px;
   margin: 2rem 3rem 2rem 0rem;
   border-radius: 20px;
 }
@@ -557,11 +602,14 @@ button:focus {
 }
 
 .about-text {
+  letter-spacing: 0.24px;
   letter-spacing: 0.015rem;
   font-family: "Baskerville";
+  padding: 32px;
   padding: 2rem;
   /*border:1px red solid;*/
   width: 38%;
+  line-height: 22.4px;
   line-height: 1.4rem;
   color: rgb(57, 57, 57);
   /* margin-top:1.3rem;*/
@@ -578,22 +626,27 @@ button:focus {
 /*_________SKILLS ______*/
 
 .skills {
+  padding-top: 80px;
   padding-top: 5rem;
   background-color: rgb(79, 199, 254);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: 640px;
   height: 40rem;
   /*border:1px red solid;*/
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
   /* align-content:center;*/
 }
 
 .skills-header {
+  padding-bottom: 64px;
   padding-bottom: 4rem;
+  font-size: 48px;
   font-size: 3rem;
   font-family: "Amatic SC";
   text-align: center;
@@ -607,8 +660,11 @@ button:focus {
   background-color: white;
   border-radius: 35px;
   height: 70%;
+  width: 800px;
   width: 50rem;
+  padding-right: 32px;
   padding-right: 2rem;
+  padding-left: 32px;
   padding-left: 2rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -641,6 +697,7 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-right: 48px;
   margin-right: 3rem;
 }
 
@@ -653,7 +710,9 @@ button:focus {
 
 .skill-logos {
   /*  border:1px  pink solid;*/
+  height: 102.4px;
   height: 6.4rem;
+  margin-top: 48px;
   margin-top: 3rem;
 }
 
@@ -670,12 +729,16 @@ button:focus {
 }
 
 .skill-logo {
+  height: 80px;
   height: 5rem;
+  width: 80px;
   width: 5rem;
   background-size: contain;
   background-repeat: no-repeat;
   /* border:1px red solid;*/
+  margin-left: 16px;
   margin-left: 1rem;
+  margin-right: 16px;
   margin-right: 1rem;
 }
 
@@ -707,8 +770,11 @@ button:focus {
 }
 
 .education {
+  padding-top: 16px;
   padding-top: 1rem;
+  padding-bottom: 16px;
   padding-bottom: 1rem;
+  font-size: 32px;
   font-size: 2rem;
   font-family: "Amatic SC";
   text-align: center;
@@ -726,8 +792,11 @@ button:focus {
 }
 
 .education-places {
+  padding-top: 16px;
   padding-top: 1rem;
+  padding-bottom: 8px;
   padding-bottom: .5rem;
+  font-size: 16px;
   font-size: 1rem;
   font-family: "Baskerville";
   font-weight: semi-bold;
@@ -738,15 +807,20 @@ button:focus {
 
 .education-text {
   text-align: center;
+  padding-bottom: 8px;
   padding-bottom: .5rem;
 }
 
 .skills-image-pencils {
   background-image: url("../images/pencil-case.png");
+  width: 224px;
   width: 14rem;
+  height: 224px;
   height: 14rem;
   background-size: cover;
+  margin-top: 112px;
   margin-top: 7rem;
+  margin-left: 32px;
   margin-left: 2rem;
   /*  border:1px red solid;*/
 }
@@ -770,7 +844,9 @@ button:focus {
 /*______________________WORK______________*/
 
 .work-wrapper {
+  padding-top: 80px;
   padding-top: 5rem;
+  padding-bottom: 80px;
   padding-bottom: 5rem;
   background-color:rgb(229, 226, 165);
   background-position: top;
@@ -796,7 +872,9 @@ button:focus {
   text-align: center;
   font-family: "Amatic SC";
   color: white;
+  margin-bottom: 40px;
   margin-bottom: 2.5rem;
+  font-size: 48px;
   font-size: 3rem;
 }
 
@@ -819,7 +897,9 @@ button:focus {
   width: 25%;
   background-color: rgba(245, 245, 245, .4);
   text-align: center;
+  margin: 32px 32px;
   margin: 2rem 2rem;
+  padding: 22.4px 16px 0px 16px;
   padding: 1.4rem 1rem 0rem 1rem;
 }
 
@@ -829,9 +909,12 @@ button:focus {
 
 .project-name {
   font-weight: lighter;
+  padding: 16px 0;
   padding: 1rem 0;
   font-family: "Helvetica";
+  font-size: 16px;
   font-size: 1rem;
+  letter-spacing: 1.6px;
   letter-spacing: .1rem;
   color: rgb(57, 57, 57);
 }
@@ -844,10 +927,12 @@ button:focus {
   max-width: 100%;
   height: auto;
   opacity: .9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 }
 
 .image:hover {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 @media only screen and (max-width:1024px) {
@@ -875,7 +960,8 @@ button:focus {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -ms-grid-row-align: center;
+        align-items: center;
     margin: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -908,7 +994,69 @@ button:focus {
   }
 }
 
-/*_____________________MODULE STYLING_________________*/
+/*_____________________MODAL STYLING_________________*/
+
+/*.arrow-left {
+    border: solid rgba(100,100,100,.6);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin:-2rem 1rem 0 1rem;
+}
+
+@media only screen and (max-width:480px){
+  .arrow-left{
+    padding:5px;
+    margin:-2rem 0 0 0;
+  }
+}
+
+.arrow-left:hover {
+    border-color:rgba(0,0,0,1);
+}
+
+.arrow-right{
+  border: solid rgba(100,100,100,.6);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin:-2rem 1rem 0 1rem;
+}
+
+@media only screen and (max-width:480px){
+  .arrow-right{
+    padding:5px;
+    margin:-2rem 0 0 0;
+  }
+}
+
+.arrow-right:hover {
+    border-color:rgba(0,0,0,1);
+}
+
+.arrow{
+  padding:1rem;
+  border:none;
+}
+
+.arrows-image{
+  /*border:1px red solid;*/
+  /*justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width:480px){
+  .arrows-image{
+    margin-bottom:2rem;
+    width:100%;
+  }
+}*/
 
 .modal {
   display: none;
@@ -947,22 +1095,27 @@ button:focus {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  letter-spacing: 3.2px;
   letter-spacing: .2rem;
     /*border: 1px red solid;*/
 }
 
 .name-close h1 {
   font-family: "Helvetica";
+  font-size: 1, 64px;
   font-size: 1, 4rem;
   font-weight: bold;
   text-align: center;
   width: 100%;
+  margin: 16px 0 19.2px 0;
   margin: 1rem 0 1.2rem 0;
   text-transform: uppercase;
   /*border: 1px red solid;*/
+  padding: 16px 0;
   padding:1rem 0;
   color:rgba(254, 87, 79,1);
 }
@@ -972,6 +1125,7 @@ button:focus {
   font-size: 28px;
   font-weight: bold;
   /*border: 1px red solid;*/
+  padding-bottom: 80px;
   padding-bottom: 5rem;
 }
 
@@ -991,7 +1145,8 @@ button:focus {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
 }
@@ -999,14 +1154,15 @@ button:focus {
 
 .image-modal {
   width: 60%;
-  margin: 0 1rem;
-  margin-bottom: 3rem;
+  margin: 0 16px 48px 0;
+  margin: 0 1rem 3rem 0;
+
 }
 
 @media only screen and (max-width:480px){
   .image-modal{
-    width:90%;
-    margin-bottom:2rem;
+    width:100%;
+    margin:0 1rem 2rem 0;
   }
 }
 
@@ -1017,22 +1173,32 @@ button:focus {
 }
 
 .modal-text {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 60%;
+  margin: 0 16px;
   margin: 0 1rem;
   /*border:1px red solid;*/
   }
 
 .modal-text p {
   width: 100%;
+  line-height: 24px;
   line-height: 1.5rem;
   font-family: "Baskerville";
+  margin-bottom: 48px;
   margin-bottom:3rem;
 }
 
 @media only screen and (max-width:480px){
   .modal-text {
     width:90%;
+    /*border:1px red solid;*/
+  }
+  .modal-text p {
+    margin-bottom:2rem;
   }
 }
 
@@ -1047,10 +1213,12 @@ button:focus {
 }
 
 .visit {
+  padding: 16px;
   padding:1rem;
   background-color:rgba(254, 87, 79,1);
   border-radius:10px;
   border:none;
+  margin-bottom: 32px;
   margin-bottom:2rem;
   color:white;
   font-weight:bold;
@@ -1060,13 +1228,17 @@ button:focus {
 .contact-title {
   color: white;
   font-family: "Amatic SC";
+  font-size: 48px;
   font-size: 3rem;
   text-align: center;
+  margin-top: 80px;
   margin-top: 5rem;
 }
 
 .contact-all {
+  padding-bottom: 64px;
   padding-bottom: 4rem;
+  height: 640px;
   height: 40rem;
   background-color: rgb(254, 153, 79);
   -webkit-box-orient: vertical;
@@ -1075,26 +1247,32 @@ button:focus {
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
 }
 
 .form {
+  width: 320px;
   width: 20rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-top: 16px;
   margin-top: 1rem;
 }
 
 label {
   color: rgb(57, 57, 57);
   font-family: "Baskerville";
+  padding-bottom: 8px;
   padding-bottom: .5rem;
 }
 
 .input {
+  margin-bottom: 16px;
   margin-bottom: 1rem;
+  height: 24px;
   height: 1.5rem;
 }
 
@@ -1111,21 +1289,28 @@ textarea:focus {
 }
 
 .message {
+  height: 160px;
   height: 10rem;
 }
 
 .contact-button {
+  margin-top: 24px;
   margin-top: 1.5rem;
+  margin-left: 128px;
   margin-left: 8rem;
 }
 
 .contact-text {
   text-align: center;
+  margin: 16px;
   margin: 1rem;
+  padding: 16px;
   padding: 1rem;
   color: rgb(57, 57, 57);
   font-family: "Baskerville";
+  width: 320px;
   width: 20rem;
+  line-height: 22.4px;
   line-height: 1.4rem;
   border-radius: 30px;
 }
@@ -1139,15 +1324,18 @@ textarea:focus {
 /*______________________FOOTER_________________*/
 
 footer {
+  height: 64px;
   height: 4rem;
   background-color: rgb(57, 57, 57);
   opacity: .8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -ms-grid-row-align: center;
+      align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1162,7 +1350,8 @@ footer {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -ms-grid-row-align: center;
+        align-items: center;
     padding-bottom: 1rem;
   }
 }
@@ -1185,7 +1374,9 @@ footer {
 
 .social {
   /*border:1px red solid;*/
+  margin-left: 8px;
   margin-left: .5rem;
+  margin-right: 8px;
   margin-right: .5rem;
 }
 
@@ -1196,20 +1387,27 @@ footer {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  padding-right: 16px;
   padding-right: 1rem;
 }
 
 .vector-credit {
   font-family: "Baskerville";
+  font-size: 11.2px;
   font-size: .7rem;
   color: white;
+  margin-left: 16px;
   margin-left: 1rem;
+  margin-right: 16px;
   margin-right: 1rem;
+  width: 160px;
   width: 10rem;
+  line-height: 12.8px;
   line-height: .8rem;
 }
 
 .vector-credits {
+  margin-left: 16px;
   margin-left: 1rem;
 }
 
@@ -1233,7 +1431,8 @@ footer {
   .vector-credits {
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    -ms-grid-row-align: center;
+        align-items: center;
     margin-top: 1rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
