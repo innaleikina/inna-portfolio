@@ -168,6 +168,10 @@ button:focus {
   border-radius: 18px;
 }
 
+@media only screen and (max-width:480px){
+
+}
+
 .colored-box {
   color: white;
   border-radius: 18px;
@@ -361,9 +365,21 @@ button:focus {
   .small-box {
     margin-left: .3rem;
     margin-right: .3rem;
-    height: 3.9rem;
-    width: 3.9rem;
+    height: 3.5rem;
+    width: 3.5rem;
     font-size: 1.2rem;
+    color:black;
+  }
+
+  .small-box-text {
+    text-shadow: 0px 2px black;
+    font-size: 1.2rem;
+    color:white;
+  }
+
+  .blog{
+    color:rgb(57,57,57);
+    text-shadow:none;
   }
 }
 
@@ -485,11 +501,7 @@ button:focus {
   /* border:1px red solid; */
 }
 
-@media only screen and (max-width:480px){
-  .small-box-text{
-    font-size:1.45rem;
-  }
-}
+
 /*_________ABOUT _____*/
 
 .about {
