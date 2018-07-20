@@ -8,7 +8,7 @@ html {
 }
 
 button:focus {
-  outline:none
+  outline: none
 }
 
 .container {
@@ -22,12 +22,12 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 720px;
-  height: 45rem;
-  /*border:1px green solid;*/
+  height: 780px;
+  /* height: 45rem; */
+  /* border:1px green solid; */
   /*background-image: url("../images/watercolor_small.jpg");
   background-position: top;*/
-  background-color:rgb(229, 226, 165);
+  background-color: rgb(229, 226, 165);
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -45,7 +45,6 @@ button:focus {
   display: none;
   z-index: 1;
 }
-
 
 .sandwich-icon {
   width: 100%;
@@ -80,7 +79,6 @@ button:focus {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
 }
 
-
 .drop-down-menu {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -90,7 +88,7 @@ button:focus {
   -webkit-box-align: end;
   -ms-flex-align: end;
   -ms-grid-row-align: flex-end;
-      align-items: flex-end;
+  align-items: flex-end;
   /*//float:right;*/
   right: -2%;
   padding-right: 48px;
@@ -113,7 +111,7 @@ button:focus {
   letter-spacing: 0.32px;
   letter-spacing: .02rem;
   font-size: 20.8px;
-  font-size:1.3rem;
+  font-size: 1.3rem;
 }
 
 .drop-down-item:hover {
@@ -131,7 +129,7 @@ button:focus {
 /*___________________BUTTONS MENU_____________________*/
 
 .all-small-boxes {
-  /*border: 3px red solid;*/
+  /* border: 3px red solid; */
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -144,7 +142,7 @@ button:focus {
   margin-top: -64px;
   margin-top: -4rem;
   /*border:1px red solid;*/
-  width:100%;
+  width: 100%;
 }
 
 .small-box {
@@ -164,18 +162,16 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
   /*box-shadow: 2px 2px 2px #D1D1D1;
   box-shadow:inset 0px 1px 0px rgba(255,255,255,.3);*/
   border-radius: 18px;
 }
 
-@media only screen and (max-width:480px){
-
-}
+@media only screen and (max-width:480px) {}
 
 .colored-box {
-  color: white;
+  color: rgb(57,57,57);
   border-radius: 18px;
   font-family: "Amatic SC";
   font-size: 30.4px;
@@ -190,15 +186,15 @@ button:focus {
 
 .orange {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcaf79+0,fe994f+44,fe994f+100 */
-  background: rgb(254, 153, 79);
+  /* background: rgb(254, 153, 79); */
   /* Old browsers */
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%);
+  /* background: -webkit-linear-gradient(top, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(249, 185, 142)), color-stop(44%, rgb(249, 162, 104)), to(rgb(254, 153, 79)));
-  background: linear-gradient(to bottom, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgb(249, 185, 142)), color-stop(44%, rgb(249, 162, 104)), to(rgb(254, 153, 79))); */
+  /* background: linear-gradient(to bottom, rgb(249, 185, 142) 0%, rgb(249, 162, 104) 44%, rgb(254, 153, 79) 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0); */
   /* IE6-9 */
   border: 1px solid rgb(229, 135, 68);
 }
@@ -224,13 +220,13 @@ button:focus {
 /*_______________________BLUE_________________*/
 
 .blue {
-  background-color: rgb(79, 199, 254);
+  /* background-color: rgb(79, 199, 254); */
   border: 1px solid #2d6898;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%);
+  /* background: -webkit-linear-gradient(top, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(74, 231, 280)), color-stop(44%, rgb(74, 208, 278)), to(rgb(79, 189, 254)));
-  background: linear-gradient(to bottom, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgb(74, 231, 280)), color-stop(44%, rgb(74, 208, 278)), to(rgb(79, 189, 254))); */
+  /* background: linear-gradient(to bottom, rgb(74, 231, 280) 0%, rgb(74, 208, 278) 44%, rgb(79, 189, 254) 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
   /* IE6-9 */
@@ -258,13 +254,13 @@ button:focus {
 /*________________________RED_________________*/
 
 .red {
-  background-color: rgb(254, 87, 79);
+  /* background-color: rgb(254, 87, 79); */
   border: 1px solid #2d6898;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%);
+  /* background: -webkit-linear-gradient(top, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(251, 144, 141)), color-stop(44%, rgb(254, 96, 104)), to(rgb(254, 77, 79)));
-  background: linear-gradient(to bottom, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgb(251, 144, 141)), color-stop(44%, rgb(254, 96, 104)), to(rgb(254, 77, 79))); */
+  /* background: linear-gradient(to bottom, rgb(251, 144, 141) 0%, rgb(254, 96, 104) 44%, rgb(254, 77, 79) 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
   /* IE6-9 */
@@ -291,13 +287,13 @@ button:focus {
 /*________________________DARK_GRAY________________*/
 
 .dark-gray {
-  background-color: rgb(57, 57, 57);
+  /* background-color: rgb(57, 57, 57); */
   border: 1px solid #2d6898;
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%);
+  /* background: -webkit-linear-gradient(top, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(142, 142, 142)), color-stop(44%, rgb(112, 112, 112)), to(rgb(57, 47, 57)));
-  background: linear-gradient(to bottom, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgb(142, 142, 142)), color-stop(44%, rgb(112, 112, 112)), to(rgb(57, 47, 57))); */
+  /* background: linear-gradient(to bottom, rgb(142, 142, 142) 0%, rgb(112, 112, 112) 44%, rgb(57, 47, 57) 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
   /* IE6-9 */
@@ -325,13 +321,14 @@ button:focus {
 
 .gray
 /*YELLOW COLOR */
-{
-  background-color: rgb(240, 224, 37);
+
+  {
+  /* background-color: rgb(240, 224, 37); */
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%);
+  /* background: -webkit-linear-gradient(top, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 252, 150)), color-stop(44%, rgb(262, 232, 97)), to(rgb(240, 224, 37)));
-  background: linear-gradient(to bottom, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 252, 150)), color-stop(44%, rgb(262, 232, 97)), to(rgb(240, 224, 37))); */
+  /* background: linear-gradient(to bottom, rgb(255, 252, 150) 0%, rgb(262, 232, 97) 44%, rgb(240, 224, 37) 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b98e', endColorstr='#fe994f', GradientType=0);
   /* IE6-9 */
@@ -363,7 +360,6 @@ button:focus {
 
 /* ______________MENU_MOBILE_______________*/
 
-
 @media only screen and (max-width: 768px) {
   .small-box {
     margin-left: .3rem;
@@ -375,58 +371,73 @@ button:focus {
 }
 
 @media only screen and (max-width: 480px) {
-
-  .all-small-boxes{
-    width:100%;
+  .all-small-boxes {
+    width: 100%;
+    /* border:1px red solid; */
+    display: flex;
+    justify-content: space-between;
   }
   .small-box {
-    margin-left: .2rem;
-    margin-right: .2rem;
     height: 3.4rem;
-    width: 3.4rem;
-    font-size: 1.2rem;
-    color:black;
+    width: 4.2rem;
+    font-size: 1.5rem;
+    color:rgb(57,57,57);
   }
-
   .small-box-text {
     text-shadow: 0px 0px white;
     font-size: 1.2rem;
-    color:white;
-    background-color: rgba(57, 57, 57, .2);
-    width:100%;
+    color: rgb(57,57,57);
+    /* background-color: rgba(57, 57, 57, .2); */
+    width: 100%;
     text-align: center;
-    padding:.4rem 0;
+    padding: .4rem 0;
   }
-
-  .blog{
-    color:rgb(57,57,57);
-    text-shadow:none;
+  .blog {
+    color: rgb(57, 57, 57);
+    text-shadow: none;
   }
 }
 
-
 /*________________________NAME_________________*/
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 .name {
   opacity: .8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   height: 112px;
   height: 7rem;
-  background-color: rgb(57, 57, 57);
-  color: rgb(245, 250, 247);
-  /* border: 1px red solid;*/
+  /* background-color: rgba(57, 57, 57,.5);
+  box-shadow: 2px 2px 2px black;
+  color: rgb(245, 250, 247); */
+
+   /* border: 1px red solid; */
   font-family: "Amatic SC";
   font-weight: 200;
   margin-top: 16px;
   margin-top: 1rem;
+  animation:fade-in 1s linear;
 }
 
 @media only screen and (max-width: 350px) {
-.name{
-  padding:1em 0;
+  .name {
+    padding: 1em 0;
+  }
 }
-}
-
 
 .name .name-skills {
   -webkit-box-pack: center;
@@ -436,15 +447,15 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
   /* border: 1px blue solid;*/
 }
 
 .inna-jones {
-    margin: 0 8px;
-    margin:0 .5rem;
-  font-size: 73.6px;
-  font-size: 4.6rem;
+  margin: 0 8px;
+  margin: 0 .5rem;
+ color:rgb(57,57,57);
+  font-size: 7.6rem;
   text-align: center;
   /*border:1px red solid;*/
   /*  width:100%;*/
@@ -452,13 +463,13 @@ button:focus {
   padding-left: 2rem;
   padding-right: 32px;
   padding-right: 2rem;
-  text-shadow: 0px -5px 0px rgba(0, 0, 0, 1);
+  /* text-shadow: 0px -5px 0px rgba(0, 0, 0, 1); */
 }
 
 .skills-list {
   /*border:1px red solid;*/
   margin: 4.8px 8px 0 8px;
-  margin: .3rem .5rem 0 .5rem ;
+  margin: .3rem .5rem 0 .5rem;
   font-size: 19.2px;
   font-size: 1.2rem;
   letter-spacing: 0.48px;
@@ -485,7 +496,7 @@ button:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -ms-grid-row-align: center;
-        align-items: center;
+    align-items: center;
   }
   .inna-jones {
     font-size: 3.5rem;
@@ -514,20 +525,22 @@ button:focus {
   justify-content: center;
   margin-top: 80px;
   margin-top: 5rem;
+  
 }
 
 .image-computer {
   background-image: url("../images/workspace.svg");
   height: 320px;
-  height: 20rem;
+  height: 25rem;
   width: 320px;
-  width: 20rem;
+  width: 25rem;
   background-size: cover;
   margin-top: 0px;
   margin-top: 0rem;
+  animation:fade-in 1s linear;
+
   /* border:1px red solid; */
 }
-
 
 /*_________ABOUT _____*/
 
@@ -540,14 +553,14 @@ button:focus {
   -ms-flex-direction: column;
   flex-direction: column;
   /*background-image: url("../images/watercolor_small.jpg");*/
-  background-color:rgb(229, 226, 165);
+  background-color: rgb(254, 153, 79);
   background-position: bottom;
   -ms-flex-line-pack: center;
   align-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
   -webkit-box-pack: center;
   /*-ms-flex-pack: center;
   justify-content: center;*/
@@ -557,10 +570,10 @@ button:focus {
   /*border:1px red solid;*/
 }
 
-.about-heading{
+.about-heading {
   /*border:1px red solid;*/
   margin: 80px 0;
-  margin:5rem 0;
+  margin: 5rem 0;
   font-size: 48px;
   font-size: 3rem;
   font-family: "Amatic SC";
@@ -568,7 +581,6 @@ button:focus {
   /* width:100%;*/
   color: white;
   /*border:1px red solid;*/
-
 }
 
 .about-photo-text {
@@ -586,7 +598,7 @@ button:focus {
   justify-content: center;
   border: 2px rgb(254, 153, 79) dashed;
   border-radius: 50px 50px 50px 0px;
-  background-color: white;
+  background-color: rgba(255,255,255,.9);
 }
 
 @media only screen and (max-width: 768px) {
@@ -597,7 +609,7 @@ button:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -ms-grid-row-align: center;
-        align-items: center;
+    align-items: center;
     -ms-flex-line-pack: center;
     align-content: center;
   }
@@ -614,7 +626,7 @@ button:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -ms-grid-row-align: center;
-        align-items: center;
+    align-items: center;
     -ms-flex-line-pack: center;
     align-content: center;
   }
@@ -623,11 +635,11 @@ button:focus {
 .inna-photo {
   background-image: url("../images/1.jpg");
   background-size: cover;
-  width: 192px;
-  width: 12rem;
-  height: 192px;
-  height: 12rem;
-  margin: 32px 48px 32px 0px;
+  /* width: 192px; */
+  width: 16rem;
+  /* height: 192px; */
+  height: 16rem;
+  /* margin: 32px 48px 32px 0px; */
   margin: 2rem 3rem 2rem 0rem;
   border-radius: 20px;
 }
@@ -643,15 +655,16 @@ button:focus {
 .about-text {
   letter-spacing: 0.24px;
   letter-spacing: 0.015rem;
-  font-family: "Baskerville";
+  font-family: "Helvetica";
   padding: 32px;
   padding: 2rem;
   /*border:1px red solid;*/
   width: 38%;
   line-height: 22.4px;
   line-height: 1.4rem;
-  color: rgb(57, 57, 57);
+  /* color: rgb(57, 57, 57); */
   /* margin-top:1.3rem;*/
+  color:gray;
 }
 
 @media only screen and (max-width: 480px) {
@@ -660,7 +673,6 @@ button:focus {
     padding-right: 1.5rem;
   }
 }
-
 
 /*_________SKILLS ______*/
 
@@ -678,7 +690,7 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
   /* align-content:center;*/
 }
 
@@ -882,12 +894,13 @@ button:focus {
 
 /*______________________WORK______________*/
 
+
 .work-wrapper {
   padding-top: 80px;
   padding-top: 5rem;
   padding-bottom: 80px;
   padding-bottom: 5rem;
-  background-color:rgb(229, 226, 165);
+  background-color: rgb(229, 226, 165);
   background-position: top;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -955,7 +968,7 @@ button:focus {
   font-size: 1rem;
   letter-spacing: 1.6px;
   letter-spacing: .1rem;
-  color: rgb(57,57,57);
+  color: rgb(57, 57, 57);
 }
 
 .project-image {
@@ -1000,7 +1013,7 @@ button:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -ms-grid-row-align: center;
-        align-items: center;
+    align-items: center;
     margin: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1077,7 +1090,8 @@ button:focus {
 }
 .arrows-image{
   /*border:1px red solid;*/
-  /*justify-content: center;
+
+/*justify-content: center;
   align-items: center;
   align-content: center;
   margin-bottom: 3rem;
@@ -1114,9 +1128,9 @@ button:focus {
   width: 80%;
 }
 
-@media only screen and (max-width:480px){
-  .modal-content{
-     max-width:100%;
+@media only screen and (max-width:480px) {
+  .modal-content {
+    max-width: 100%;
   }
 }
 
@@ -1127,12 +1141,12 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
   letter-spacing: 3.2px;
   letter-spacing: .2rem;
-    /*border: 1px red solid;*/
+  /*border: 1px red solid;*/
 }
 
 .name-close h1 {
@@ -1147,8 +1161,8 @@ button:focus {
   text-transform: uppercase;
   /*border: 1px red solid;*/
   padding: 16px 0;
-  padding:1rem 0;
-  color:rgba(254, 87, 79,1);
+  padding: 1rem 0;
+  color: rgba(254, 87, 79, 1);
 }
 
 .close {
@@ -1160,7 +1174,8 @@ button:focus {
   padding-bottom: 5rem;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -1177,42 +1192,40 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
 }
-
 
 .image-modal {
   width: 60%;
   margin: 0 16px 48px 0;
   margin: 0 1rem 3rem 0;
-
 }
 
-@media only screen and (max-width:480px){
-  .image-modal{
-    width:100%;
-    margin:0 1rem 2rem 0;
+@media only screen and (max-width:480px) {
+  .image-modal {
+    width: 100%;
+    margin: 0 1rem 2rem 0;
   }
 }
 
-
 .image-modal img {
   width: 100%;
-    border:1px rgba(100,100,100,.6) solid;
+  border: 1px rgba(100, 100, 100, .6) solid;
+  padding-bottom:20px;
 }
 
 .modal-text {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 60%;
   margin: 0 16px;
   margin: 0 1rem;
   /*border:1px red solid;*/
-  }
+}
 
 .modal-text p {
   width: 100%;
@@ -1220,40 +1233,50 @@ button:focus {
   line-height: 1.5rem;
   font-family: "Baskerville";
   margin-bottom: 48px;
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:480px) {
   .modal-text {
-    width:90%;
+    width: 90%;
     /*border:1px red solid;*/
   }
   .modal-text p {
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
   }
 }
 
-  .modal-text a{
-    text-align: center;
-  }
+.modal-text a {
+  text-align: center;
+}
 
-@media only screen and (max-width:768px){
-.modal-text a{
-   margin-top:1rem;
+@media only screen and (max-width:768px) {
+  .modal-text a {
+    margin-top: 1rem;
   }
 }
+
+.code-btns{
+  /* border:1px red solid; */
+  display:flex;
+  justify-content: center;
+}
+
 
 .visit {
   padding: 16px;
-  padding:1rem;
-  background-color:rgba(254, 87, 79,1);
-  border-radius:10px;
-  border:none;
+  padding: 1rem;
+  background-color: rgba(254, 87, 79, 1);
+  border-radius: 10px;
+  border: none;
   margin-bottom: 32px;
-  margin-bottom:2rem;
-  color:white;
-  font-weight:bold;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: bold;
+  margin-left:5px;
+  margin-right:5px;
 }
+
 /*_______________________CONTACT_____________*/
 
 .contact-title {
@@ -1279,7 +1302,7 @@ button:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 .form {
@@ -1366,7 +1389,7 @@ footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-      align-items: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1382,7 +1405,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -ms-grid-row-align: center;
-        align-items: center;
+    align-items: center;
     padding-bottom: 1rem;
   }
 }
@@ -1399,8 +1422,8 @@ footer {
   color: rgb(240, 224, 37);
 }
 
-.fa-camera-retro{
-  color:rgb(79, 199, 254);
+.fa-camera-retro {
+  color: rgb(79, 199, 254);
 }
 
 .social {
@@ -1463,7 +1486,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     -ms-grid-row-align: center;
-        align-items: center;
+    align-items: center;
     margin-top: 1rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
