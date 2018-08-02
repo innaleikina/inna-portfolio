@@ -1114,6 +1114,7 @@ button:focus {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
+  font-size:18px;
 }
 
 .modal-content {
@@ -1134,6 +1135,10 @@ button:focus {
   }
 }
 
+li{
+  margin-top:6px;
+  margin-bottom:6px;
+}
 .name-close {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -1213,7 +1218,7 @@ button:focus {
 .image-modal img {
   width: 100%;
   border: 1px rgba(100, 100, 100, .6) solid;
-  padding-bottom:20px;
+  padding:.1px;
 }
 
 .modal-text {
