@@ -372,12 +372,12 @@ button:focus {
 
 @media only screen and (max-width: 480px) {
   .all-small-boxes {
-    width: 95%;
-    margin:0 auto;
+    width: 99%;
+    /* margin:0 auto; */
     /* border:1px red solid; */
     display: flex;
     justify-content: space-between;
-    /* border:1px red solid; */
+    /* display:none; */
   }
   .small-box {
     height: 3.4rem;
@@ -397,6 +397,9 @@ button:focus {
   .blog {
     color: rgb(57, 57, 57);
     text-shadow: none;
+  }
+  .scrolled-menu{
+    display:b
   }
 }
 
