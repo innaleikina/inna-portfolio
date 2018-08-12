@@ -372,10 +372,12 @@ button:focus {
 
 @media only screen and (max-width: 480px) {
   .all-small-boxes {
-    width: 100%;
+    width: 99%;
+    margin:0 auto;
     /* border:1px red solid; */
     display: flex;
     justify-content: space-between;
+    /* border:1px red solid; */
   }
   .small-box {
     height: 3.4rem;
