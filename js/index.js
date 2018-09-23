@@ -34,7 +34,7 @@ $("document").ready(function(){
 //Module pops up when user clicks on a project
 // $(".modal").hide();
 
-$("#weather").on("click", function(){
+$("#chewzy").on("click", function(){
   $("#modal-weather").css("display","block");
   });
 
