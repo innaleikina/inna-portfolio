@@ -5,6 +5,7 @@ $("document").ready(function(){
   var scroll = $(window).scrollTop();
 
 //navigation appers when user scrolls
+
      if (scroll >= 150) {
         $(function () {
             $(".all-small-boxes").hide();
