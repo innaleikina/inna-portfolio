@@ -594,7 +594,7 @@ button:focus {
   -ms-flex-direction: row;
   flex-direction: row;
   width: 784px;
-  width: 49rem;
+  width: 90%;
   padding: 32px;
   padding: 2rem;
   /*border:1px red solid;*/
@@ -716,8 +716,7 @@ button:focus {
   background-color: white;
   border-radius: 35px;
   height: 70%;
-  width: 800px;
-  width: 50rem;
+  width: 90%;
   padding-right: 32px;
   padding-right: 2rem;
   padding-left: 32px;
@@ -729,7 +728,7 @@ button:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  /* border:1px green solid;*/
+  /* border:1px green solid; */
 }
 
 @media only screen and (max-width:768px) {
@@ -855,7 +854,7 @@ button:focus {
   font-size: 16px;
   font-size: 1rem;
   font-family: "Baskerville";
-  font-weight: semi-bold;
+  font-weight: bold;
   text-align: center;
   /* width:100%;*/
   color: rgb(79, 199, 254);
@@ -869,15 +868,12 @@ button:focus {
 
 .skills-image-pencils {
   background-image: url("../images/pencil-case.png");
-  width: 224px;
-  width: 14rem;
-  height: 224px;
-  height: 14rem;
+  width: 180px;
+  height: 180px;
   background-size: cover;
   margin-top: 112px;
   margin-top: 7rem;
-  margin-left: 32px;
-  margin-left: 2rem;
+  margin-left: 19px;
   /*  border:1px red solid;*/
 }
 
@@ -1506,6 +1502,6 @@ footer {
   }
 }
 
-/**{background: #000 !important;
+/* *{background: #000 !important;
 color: #0f0 !important;
-outline: solid #f00 1px !important;}*/
+outline: solid #f00 1px !important;} */

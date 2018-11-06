@@ -32,37 +32,12 @@ $("document").ready(function(){
    })
 
 //Module pops up when user clicks on a project
-// $(".modal").hide();
-
-$("#chewzy").on("click", function(){
-  $("#modal-weather").css("display","block");
-  });
-
-
-
-$("#quote").on("click", function(){
-  $("#modal-quote").css("display","block");
-  });
-
-
-$("#wikipedia").on("click", function(){
-  $("#modal-wikipedia").css("display","block");
- });
-
-$("#colmar").on("click", function(){
-  $("#modal-colmar").css("display","block");
+$("a").click(function(event) {
+     var projectId = $(this).attr("id");
+     $("#modal-" + projectId).css("display", "block");
 });
-
-$("#agent").on("click", function(){
-  $("#modal-agent").css("display","block");
-});
-
-$("#brotherhood").on("click", function(){
-  $("#modal-brotherhood").css("display","block");
-});
-
-
-
+ 
+  
 $(".close").on("click", function(){
   $(".modal").hide();
 });
