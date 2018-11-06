@@ -575,6 +575,8 @@ button:focus {
   /*border:1px red solid;*/
 }
 
+
+
 .about-heading {
   /*border:1px red solid;*/
   margin: 80px 0;
@@ -908,6 +910,7 @@ button:focus {
   -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
+  /* border:1px red solid; */
 }
 
 .work-all {
@@ -919,6 +922,7 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  /* border:1px red solid; */
 }
 
 .work-heading {
@@ -938,6 +942,8 @@ button:focus {
   -ms-flex-pack: center;
   justify-content: center;
   width: auto;
+  /* border:1px red solid; */
+
 }
 
 .project {
@@ -952,8 +958,8 @@ button:focus {
   text-align: center;
   margin: 32px 32px;
   margin: 2rem 2rem;
-  padding: 22.4px 16px 0px 16px;
-  padding: 1.4rem 1rem 0rem 1rem;
+  padding: 16px 16px 16px 16px;
+  
 }
 
 .project:hover {
@@ -961,15 +967,22 @@ button:focus {
 }
 
 .project-name {
-  font-weight: lighter;
-  padding: 16px 0;
-  padding: 1rem 0;
+  font-weight: bold;
+  font-variant: small-caps;
   font-family: "Baskerville";
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 20px;
+  font-size: 1.5rem;
   letter-spacing: 1.6px;
   letter-spacing: .1rem;
-  color: rgb(57, 57, 57);
+  color: rgba(254, 87, 79, 1);
+  padding-bottom:10px;
+}
+
+.project-subtitle{
+  font-size:12px;
+  font-weight: lighter;
+  color:rgb(57,57,57);
+  margin-bottom:15px;
 }
 
 .project-image {
@@ -986,6 +999,7 @@ button:focus {
 .image:hover {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  cursor:pointer;
 }
 
 @media only screen and (max-width:1024px) {
@@ -1025,13 +1039,13 @@ button:focus {
     width: 60%;
     /*height:100%;*/
     /*border:1px red solid;*/
-    padding: 1.4rem 3rem 0rem 3rem;
+    padding: 16px 3rem ;
     margin: 1.5rem 0;
     background-color: rgba(245, 245, 245, .4);
   }
   .project-name {
     padding: 1rem 0;
-    color: rgb(57, 57, 57);
+
   }
   .project:hover {
     background-color: rgba(245, 245, 245, .6);
@@ -1134,6 +1148,23 @@ button:focus {
   .modal-content {
     max-width: 100%;
   }
+}
+
+.project-modal-lists{
+  display:flex;
+  /* border:1px red solid; */
+  justify-content:space-between;
+  padding-bottom:80px;
+}
+
+.project-list-title{
+  font-weight:bold;
+  color:rgba(254, 87, 79, 1);
+}
+
+#scroll-future{
+  width:220px;
+  /* border:1px red solid; */
 }
 
 li{

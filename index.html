@@ -146,15 +146,18 @@
       <div class="inna-photo container">
         <!-- <img src="images/rsz_11.jpg"> -->
       </div>
-      <div class="about-text container"> Hi! I'm Inna. I love building responsive, clean and functional websites. I have a degree in Graphic Design from Pratt
-        Institute, and my knowledge of design principles allows me to build visually appealing as well as user friendly websites.</br>
+      <div class="about-text container"> Hi! I'm Inna. I love building responsive, clean and functional websites. I
+        have a degree in Graphic Design from Pratt
+        Institute, and my knowledge of design principles allows me to build visually appealing as well as user friendly
+        websites.</br>
         </br>
-        What I love most about web development is the constant challenge. I am always excited to take on new projects and find solutions
+        What I love most about web development is the constant challenge. I am always excited to take on new projects
+        and find solutions
         to new problems. </div>
     </div>
   </div>
 
-  <!-- _______SERVICES _____-->
+  <!-- _______SKILLS _____-->
   <div class="container skills" id="skills">
 
     <p class="skills-header"> SKILLS </p>
@@ -202,10 +205,11 @@
         <!--___________________CHEWZY__________________________-->
         <div class="project container">
           <a id="chewzy" style="text-decoration:none">
-            <div class= "project-image">
+            <p class="project-name"> chewzy </p>
+            <p class="project-subtitle"> HTML CSS JQuery Express Auth0 Handlebars MySQL </p>
+            <div class="project-image">
               <img class="image" src="./images/chewzy.jpg" />
             </div>
-            <p class="project-name"> Chewzy </p>
           </a>
         </div>
         <!--________________ MODAL CHEWZY _____________________-->
@@ -221,21 +225,43 @@
               <!-- <div class="arrows-image container">
           <button class="arrow" ><span><i class="arrow-left"></i>  </span></button> -->
               <div class="image-modal">
-                <img src="./images/chewzy.jpg">
+                <img src="./images/chewzy-modal.jpg">
               </div>
               <!-- <button class="arrow" onclick="plusSlides(+1)"><span><i class="arrow-right"></i>  </span></button>
         </div> -->
 
               <div class="modal-text container">
-                <p> Chewzy is an app that allows users to take a short quiz and find a place to eat. Chewzy is a group project built by two people. I worked on the backend and the UX/UI.</p>
-                <ul>
-                  <li> Nodejs</li>
-                  <li> Sequelize </li>
-                  <li> MySql </li>
-                  <li> Auth0 </li>
-                  <li> AJAX </li>
-                  <li> Expressjs </li>
-                </ul>
+                <div>
+                  <p> Chewzy is a full stack app that allows users to take a short quiz and find a place to eat. Users
+                    can log in and save favorites, or just take the quiz and get a quick result. Chewzy is a group
+                    project built by two people. </p>
+
+                  <p>I worked on the backend, and wrote the sequel queries as well as set up the routes, implemented
+                    the Auth0 log in functionality and desgned the UX/UI using Adobe XD and then CSS to take my
+                    sketches to production.</p>
+                </div>
+
+                <div class="project-modal-lists">
+                  <ul>
+                    <li class="project-list-title"> Technologies:<li>
+                    <li> Nodejs</li>
+                    <li> Sequelize </li>
+                    <li> MySql </li>
+                    <li> Auth0 </li>
+                    <li> AJAX </li>
+                    <li> Expressjs </li>
+                    <li> Handlebars</li>
+                    <li> Adobe XD </li>
+                  </ul>
+
+
+                  <ul>
+                    <li class="project-list-title"> Future developments:<li>
+                    <li> Delete items from favorites </li>
+                    <li> No duplicates in favorites </li>
+                  </ul>
+                </div>
+
                 <div class="code-btns">
                   <a href="https://sleepy-sierra-59381.herokuapp.com" target="_blank">
                     <button class="visit"> VISIT</button>
@@ -254,10 +280,12 @@
         <!--_______________________HANGMAN_________________________________-->
         <div class="project container">
           <a id="hangman" style="text-decoration:none">
-            <div class= "project-image">
+            <p class="project-name"> hangman </p>
+            <p class="project-subtitle"> HTML CSS JQuery </p>
+
+            <div class="project-image">
               <img class="image" src="./images/hangman.jpg" />
             </div>
-            <p class="project-name"> Hangman </p>
           </a>
         </div>
 
@@ -280,11 +308,13 @@
            </div> -->
               <div class="modal-text container">
 
-                <p>This is a Hangman game based on cult classic movie titles. The game utilized HTML, CSS and JavaScript. The
-                  game picks a random title from an array, after the first wrong guess the user gets a hint containing a
-                  quote from the movie. If the movie is guessed correctly an image from the movie comes up. If the movie
-                  title is guessed incorectly the answer is given after all 8 tries to guess have been exhausted.
+                <p>This is a Hangman game based on cult classic movie titles. The game
+                  utilized HTML, CSS and JavaScript. The
+                  game picks a random title from an array, after the first wrong guess the user gets a hint containing
+                  a quote from the movie. If the movie is guessed correctly an image from the movie comes up. If the
+                  movie title is guessed incorectly the answer is given after all 8 tries to guess have been exhausted.
                 </p>
+
                 <div class="code-btns">
                   <a href="https://innaleikina.github.io/hangman/" target="_blank">
                     <button class="visit"> VISIT </button>
@@ -303,10 +333,12 @@
         <!--_____________GIPHY________________-->
         <div class="project container ">
           <a id="giphy" style="text-decoration:none">
-            <div class= "project-image">
+            <p class="project-name"> giphy </p>
+            <p class="project-subtitle"> HTML CSS JQuery Local Storage </p>
+
+            <div class="project-image">
               <img class="image" src="./images/giphy.jpg" />
             </div>
-            <p class="project-name"> Giphy </p>
           </a>
         </div>
       </div>
@@ -335,9 +367,26 @@
 
             <div class="modal-text container">
 
-              <p> The Giphy website has built in buttons to retrieve releavnt GIFs from the giphy API. Each GIF has persistent
-                data for a still or moving image. When the user clicks a GIF, they can start or pause it. Users are also
-                able to save and access their favorite GIFs using local storage. </p>
+              <p> The Giphy project uses API calls to retrieve GIfs from Giphy and a article blurb from Wikipedia based
+                on a search word. Any time a new search word is used a button renders on the page, and the user can
+                generate a new set of GIFs on every click. Users can also save GIfs to favorites using Local Storage.
+              </p>
+              <div class="project-modal-lists">
+                <ul>
+                  <li class="project-list-title"> Technologies:<li>
+                  <li> HTML</li>
+                  <li> CSS </li>
+                  <li> JQuery </li>
+                  <li> Local Storage </li>
+                </ul>
+
+
+                <ul>
+                  <li class="project-list-title"> Future developments:<li>
+                  <li> Delete items from favorites </li>
+                  <li> No duplicates in favorites </li>
+                </ul>
+              </div>
               <div class="code-btns">
                 <a href="https://innaleikina.github.io/giphyapi/" target="_blank">
                   <button class="visit"> VISIT </button>
@@ -356,10 +405,12 @@
       <div class="row container">
         <div class="project container">
           <a id="methodize" style="text-decoration:none">
-            <div class ="project-image">
+            <p class="project-name"> methodize </p>
+            <p class="project-subtitle"> React Redux Axios React-Router Express JWT Mongo Node </p>
+
+            <div class="project-image">
               <img class="image" src="./images/methodize.jpg" />
             </div>
-            <p class="project-name"> Methodize </p>
           </a>
         </div>
 
@@ -383,22 +434,35 @@
 
               <div class="modal-text container">
 
-                <p> Methodize is a group project built in a remote team of 3 through a Chingu Voyage. Methodize is an organizer
-                  that stores user to dos. Methodize is a full stack app. I was responsible for the front-end portion and
-                  ux/ui of this app.</p>
-                <ul>
-                  <li> React </li>
-                  <li> Nodejs</li>
-                  <li> MongoDB </li>
-                  <li>React DnD - Drag and Drop library</li>
-                  <li> Redux - State manager</li>
-                  <li> Redux-Thunk - redux middleware</li>
-                  <li> Axios - Promise based HTTP client </li>
-                  <li>Styled-components - styling</li>
-                  <li> React-Router - client side routing</li>
-                  <li>Expressjs - nodejs server side framework Mongoose </li>
-                  <li>JWT - Authentication</li>
-                </ul>
+                <p> Methodize is a group project built in a remote team of 3 through a
+                  Chingu Voyage that lasted 2 months. Methodize is an organizer
+                  that stores user to dos. </p>
+                <p> Methodize was my first dive into React and I learned a lot. I was responsible for the front end, I
+                  worked on the API call to retrieve the weather and the date time portion of the app. I also sketched
+                  out the UX/UI in Canva and used Styled Components to bring my design to life. </p>
+
+                <div class="project-modal-lists">
+                  <ul>
+                    <li class="project-list-title"> Technologies:<li>
+                    <li> React </li>
+                    <li> Nodejs</li>
+                    <li> MongoDB </li>
+                    <li>React DnD </li>
+                    <li> Redux</li>
+                    <li> Redux-Thunk</li>
+                    <li> Axios</li>
+                    <li>Styled-components </li>
+                    <li> React-Router /li>
+                    <li>Expressjs </li>
+                    <li>JWT </li>
+                  </ul>
+
+                  <ul>
+                    <li class="project-list-title"> Future developments:<li>
+                    <li> Convert to be a Chrome extension </li>
+                    <li> Make mobile friendly </li>
+                  </ul>
+                </div>
                 <div class="code-btns">
                   <a href="https://methodize.herokuapp.com/" target="_blank">
                     <button class="visit"> VISIT </button>
@@ -417,10 +481,13 @@
         <!--_______________________ HARMONIZE _________________-->
         <div class="project container">
           <a id="harmonize" style="text-decoration:none">
-            <div class ="project-image">
+            <p class="project-name"> harmonize </p>
+            <p class="project-subtitle"> HTML CSS JQuery Firebase </p>
+
+            <div class="project-image">
               <img class="image" src="./images/harmonize.jpg" />
             </div>
-            <p class="project-name"> Harmonize </p>
+
           </a>
         </div>
 
@@ -442,128 +509,172 @@
     </div> -->
               <div class="modal-text container">
 
-                <p> Harmonize is a group project built in a team of 4 people. I was responsible for implimenting Firebase and
-                  writing out initial API calls.
+                <p> Harmonize is an app that allows users to find concerts based on an
+                  artist name and user location. Users can sign in and save favorite concerts or just browse upcoming
+                  shows without logging in. Users can also delete concerts from favorites.</p>
+                <p> I worked on all of the Firebase functionality, logging users in and out, and adding and deleting
+                  data from the database.</p>
+
+                <div class="project-modal-lists">
+
                   <ul>
+                    <li class="project-list-title"> Technologies:<li>
+                    <li>HTML </li>
+                    <li>CSS </li>
                     <li>Firebase database </li>
                     <li>Firebase google auth </li>
                     <li>jQuery</li>
                   </ul>
-                </p>
-                <div class="code-btns">
-                  <a href="https://innaleikina.github.io/Concert-Planner/" target="_blank">
-                    <button class="visit"> VISIT </button>
-                  </a>
-                  <a href=https://github.com/bpadil123/Concert-Planner target="_blank">
-                    <button class="visit"> CODE </button>
-                  </a>
+
+                  <ul>
+                      <li class="project-list-title"> Future Developments:<li>
+                      <li> Integrating Google Calendar</li>
+      
+                    </ul>
+                  </div>
+                 
+                  <div class="code-btns">
+                    <a href="https://innaleikina.github.io/Concert-Planner/" target="_blank">
+                      <button class="visit"> VISIT </button>
+                    </a>
+                    <a href=https://github.com/bpadil123/Concert-Planner target="_blank">
+                      <button class="visit"> CODE </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
 
 
 
-        <!--__________________ SCROLL ___________________-->
-        <div class="project container">
-          <a id="scroll" style="text-decoration:none">
-            <div class= "project-image">
-              <img class="image" src="./images/trivia.jpg" />
-            </div>
-            <p class="project-name"> The Office Trivia </p>
-          </a>
-        </div>
+          <!--__________________ SCROLL ___________________-->
+          <div class="project container">
+            <a id="scroll" style="text-decoration:none">
+              <p class="project-name"> scroll</p>
+              <p class="project-subtitle"> React Express Mongo Node Passport React-Router </p>
 
-        <!--_______________MODAL SCROLL ____________-->
-        <div class="modal" id="modal-scroll">
-          <div class="modal-content container">
-            <div class="name-close container">
-              <h1> The Office Trivia </h1>
-              <span class="close">&times;</span>
-            </div>
+              <div class="project-image">
+                <img class="image" src="./images/scroll.jpg" />
+              </div>
+            </a>
+          </div>
 
-            <div class="image-text-modal container">
-              <!-- <div class="arrows-image container">
+          <!--_______________MODAL SCROLL ____________-->
+          <div class="modal" id="modal-scroll">
+            <div class="modal-content container">
+              <div class="name-close container">
+                <h1> scroll </h1>
+                <span class="close">&times;</span>
+              </div>
+
+              <div class="image-text-modal container">
+                <!-- <div class="arrows-image container">
             <button class="arrow"><span><i class="arrow-left"></i>  </span></button> -->
-              <div class="image-modal">
-                <img src="./images/trivia-modal.jpg">
-              </div>
-              <!-- <button class="arrow"><span><i class="arrow-right"></i>  </span></button>
+                <div class="image-modal">
+                  <img src="./images/scroll-modal.jpg">
+                </div>
+                <!-- <button class="arrow"><span><i class="arrow-right"></i>  </span></button>
         </div> -->
-              <div class="modal-text container">
+                <div class="modal-text container">
 
-                <p>The Office Trivia is a quiz app. The app cycles through questions, and returns different responses after each question based on whether the user got the answer correctly. At the end a total tally of rights, wrongs, timed outs is displayed. </p>
-                <div class="code-btns">
-                  <a href="https://innaleikina.github.io/trivia/" target="_blank">
-                    <button class="visit"> VISIT </button>
-                  </a>
-                  <a href=https://github.com/innaleikina/trivia target="_blank">
-                    <button class="visit"> CODE </button>
-                  </a>
+                  <p> Scroll is a full stack social media app that allows writers to post their work and gain a following without having to go through the publisher. Scroll was built in a group of two people.</p>
+                  <p> Scroll was an incredible learning experience as I got to work on all the aspects of the app. We have 3 collections , author, post and comment and all three have to have access to each other's information. Working with Mongoose and figuring most efficient queries was both, challenging and rewarding. I also worked with Express to define routes for adding and retrieving information from the datatbase. I sketched and coded the UX/UI elements of the app as well.    </p>
+
+                  <div class="project-modal-lists">
+                      <ul>
+                        <li class="project-list-title"> Technologies:<li>
+                        <li> React </li>
+                        <li> Nodejs</li>
+                        <li> MongoDB </li>
+                        <li> Axios</li>
+                        <li> Passport</li>
+                        <li> BCrypt </li>
+                        <li> React-Router </li>
+                        <li>Expressjs </li>
+                        
+                      </ul>
+    
+                      <ul id="scroll-future">
+                        <li class="project-list-title" > Future developments:<li>
+                        <li> Add delete functionality to posts and comments</li>
+                        <li> Allow users to create collections of chapters</li>
+                        <li> Bookmarks </li>
+                        <li>Admin functionality</li>
+                        <li> Migrate to React Native and deploy to the app store </li>
+                      </ul>
+                    </div>
+
+                  <div class="code-btns">
+                    <a href="https://pacific-everglades-31097.herokuapp.com/" target="_blank">
+                      <button class="visit"> VISIT </button>
+                    </a>
+                    <a href="https://github.com/innaleikina/scroll" target="_blank">
+                      <button class="visit"> CODE </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
+
         </div>
-
-
       </div>
+
+
+    </div>
+    <!--________CONTACT_______-->
+    <div class="contact-all container" id="contact">
+
+      <p class="contact-title"> CONTACT </p>
+
+      <p class="contact-text"> I hope you enjoyed my portfolio. Feel free to reach out about any projects or questions.</p>
+
+
+      <form class="container form" method="POST" action="https://formspree.io/designbyinna@gmail.com">
+        <label> Name </label>
+        <input class="input" type="name" name="name" placeholder="Your name">
+        <label> Email </label>
+        <input class="input" type="email" name="email" placeholder="Your email">
+        <label> Message </label>
+        <textarea class="message" name="message" placeholder="Your message"></textarea>
+        <button class="contact-button dark-gray small-box colored-box " type="submit">Send</button>
+      </form>
+
     </div>
 
+    <!-- __________________FOOTER_______________-->
+    <footer class="container">
 
-  </div>
-  <!--________CONTACT_______-->
-  <div class="contact-all container" id="contact">
+      <div class="container vector-credits">
 
-    <p class="contact-title"> CONTACT </p>
+        <p class="vector-credit"> Vector art by Icon Pond from www.flaticon.com </p>
 
-    <p class="contact-text"> I hope you enjoyed my portfolio. Feel free to reach out about any projects or questions.</p>
+        <!-- <p class="vector-credit"> Vector art by Vectors Marker from www.flaticon.com </p> -->
 
+        <p class="vector-credit"> Vector art by Smashicons from www.flaticon.com </p>
+      </div>
 
-    <form class="container form" method="POST" action="https://formspree.io/designbyinna@gmail.com">
-      <label> Name </label>
-      <input class="input" type="name" name="name" placeholder="Your name">
-      <label> Email </label>
-      <input class="input" type="email" name="email" placeholder="Your email">
-      <label> Message </label>
-      <textarea class="message" name="message" placeholder="Your message"></textarea>
-      <button class="contact-button dark-gray small-box colored-box " type="submit">Send</button>
-    </form>
+      <div class="container social-icons">
+        <a href="https://codepen.io/leikina/" target="_blank">
+          <i class="fa fa-codepen fa-2x  social" aria-hidden="true"></i>
+        </a>
 
-  </div>
+        <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank">
+          <i class="fa fa-linkedin-square fa-2x social" aria-hidden="true"></i>
+        </a>
 
-  <!-- __________________FOOTER_______________-->
-  <footer class="container">
+        <a href="https://github.com/innaleikina" target="_blank">
+          <i class="fa fa-github fa-2x social" aria-hidden="true"></i>
+        </a>
 
-    <div class="container vector-credits">
-
-      <p class="vector-credit"> Vector art by Icon Pond from www.flaticon.com </p>
-
-      <!-- <p class="vector-credit"> Vector art by Vectors Marker from www.flaticon.com </p> -->
-
-      <p class="vector-credit"> Vector art by Smashicons from www.flaticon.com </p>
-    </div>
-
-    <div class="container social-icons">
-      <a href="https://codepen.io/leikina/" target="_blank">
-        <i class="fa fa-codepen fa-2x  social" aria-hidden="true"></i>
-      </a>
-
-      <a href="https://www.linkedin.com/in/inna-leikina-1580542b/" target="_blank">
-        <i class="fa fa-linkedin-square fa-2x social" aria-hidden="true"></i>
-      </a>
-
-      <a href="https://github.com/innaleikina" target="_blank">
-        <i class="fa fa-github fa-2x social" aria-hidden="true"></i>
-      </a>
-
-      <a href="http://ianandinnaphotography.format.com/" target="_blank">
-        <i class="fa fa-2x fa-camera-retro social" aria-hidden="true"></i>
-      </a>
-    </div>
-  </footer>
+        <a href="http://ianandinnaphotography.format.com/" target="_blank">
+          <i class="fa fa-2x fa-camera-retro social" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
 
 </body>
 </div>
